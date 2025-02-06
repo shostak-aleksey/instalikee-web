@@ -1,0 +1,27 @@
+.navbar-border_animated {
+  color: #666;
+  display: inline-block;
+  transform: translateY(3px);
+  text-transform: uppercase;
+}
+
+.navbar-border_animated:after {
+  display: block;
+  content: '';
+  border-bottom: solid 3px #FFC001;
+
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.navbar-border_animated:hover:after {
+  transform: scaleX(1);
+}
+
+.navbar-border_animated.fromRight:after {
+  transform-origin: 100% 50%;
+}
+
+.navbar-border_animated.fromLeft:after {
+  transform-origin: 0% 50%;
+}

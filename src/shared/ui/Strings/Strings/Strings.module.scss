@@ -1,0 +1,36 @@
+.StringsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.String {
+  width: 400px;
+  height: 2px;
+  background-color: white;
+  transition: transform 0.2s ease;
+}
+
+// .String.active {
+//     transform: scaleX(1.2) translateY(-5px);
+// }
+// @keyframes sineWave {
+//   0%,
+//   100% {
+//     transform: translateY(0);
+//   }
+//   25% {
+//     transform: translateY(-15px);
+//   }
+//   50% {
+//     transform: translateY(15px);
+//   }
+//   75% {
+//     transform: translateY(-10px);
+//   }
+// }
+
+// .String.active {
+//   animation: sineWave 1s cubic-bezier(0.36, 0.07, 0.19, 0.97) infinite;
+// }

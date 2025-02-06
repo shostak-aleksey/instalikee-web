@@ -1,0 +1,282 @@
+:root {
+  --font-family-main: 'Golos Text', serif;
+
+  // s
+  --font-size-s: 14px; /* Изменено с 12px */
+  --font-line-s: 22px; /* Изменено с 20px */
+  --font-s: var(--font-size-s) / var(--font-line-s) var(--font-family-main);
+
+  // m
+  --font-size-m: 18px; /* Изменено с 16px */
+  --font-line-m: 26px; /* Изменено с 24px */
+  --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+
+  // l
+  --font-size-l: 26px; /* Изменено с 24px */
+  --font-line-l: 34px; /* Изменено с 32px */
+  --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+
+  // xl
+
+  --font-size-xl: 34px; /* Изменено с 32px */
+  --font-line-xl: 42px; /* Изменено с 40px */
+  --font-xl: var(--font-size-xl) / var(--font-line-xl) var(--font-family-main);
+
+  --font-size-xxl: 42px; /* Изменено с 40px */
+  --font-line-xxl: 50px; /* Изменено с 48px */
+  --font-xxl: var(--font-size-xxl) / var(--font-line-xxl)
+    var(--font-family-main);
+
+  --font-size-xxxl: 50px; /* Изменено с 48px */
+  --font-line-xxxl: 58px; /* Изменено с 56px */
+  --font-xxxl: var(--font-size-xxxl) / var(--font-line-xxxl)
+    var(--font-family-main);
+
+  --font-size-4xl: 60px;
+  --font-line-4xl: 68px;
+  --font-4xl: var(--font-size-4xl) / var(--font-line-4xl)
+    var(--font-family-main);
+
+  --font-size-5xl: 70px;
+  --font-line-5xl: 78px;
+  --font-5xl: var(--font-size-5xl) / var(--font-line-5xl)
+    var(--font-family-main);
+
+  --font-size-6xl: 80px;
+  --font-line-6xl: 88px;
+  --font-6xl: var(--font-size-6xl) / var(--font-line-6xl)
+    var(--font-family-main);
+
+  // Размеры
+  --navbar-height: 60px; /* Изменено с 50px */
+  --sidebar-width: 320px; /* Изменено с 300px */
+  --sidebar-width-collapsed: 90px; /* Изменено с 80px */
+
+  // z - Индексы
+  --modal-z-index: 1100; /* Изменено с 1000 */
+  --overlay-z-index: 150; /* Изменено с 100 */
+
+  // Цвета
+  --overlay-color: rgba(0, 0, 0, 0.7); /* Изменено с rgba(0 0 0 / 60%) */
+  --red-light: #ff4d4d; /* Изменено с #f00 */
+  --red-dark: #d00000; /* Изменено с #ce0505 */
+
+  // Размеры
+  --navbar-height: 50px;
+  --sidebar-width: 300px;
+  --sidebar-width-collapsed: 80px;
+
+  // z - Индексы
+  --modal-z-index: 1000;
+  --overlay-z-index: 100;
+  --overlay-color: rgba(0 0 0 / 60%);
+  --red-light: #f00;
+  --red-dark: #ce0505;
+  --color-primary: #6667ab;
+  --color-secondary: #ac8188;
+  --color-coral: #e9967a;
+  --color-violet: purple;
+  --color-purple: linear-gradient(90deg, #922bfa, #b666e6);
+  --color-pink: #db7093;
+  --color-heading: #f6f6f6;
+  // --color-heading: #192335;
+  --color-body: #6b7385;
+  --color-white: #fff;
+  --color-white-off: #ffffffab;
+  --color-bodyest: #273041;
+  --color-dark: #27272e;
+  --color-darker: #192335;
+  --color-black: #222;
+  --color-grey: hsla(0, 0%, 81%, 0.24);
+  --color-grey2: #f4f5f7;
+  --color-gray: #a1a9ac;
+  --color-gray-light: #f6f6f6;
+  --color-gray-lighter: #ebebeb;
+  --color-light: #f5f7fa;
+  --color-lighter: #f2f5f9;
+  --primary-opacity: #2f57ef21;
+  --secondary-opacity: #b966e721;
+  --coral-opacity: #e9967a21;
+  --violet-opacity: #80008021;
+  --pink-opacity: #db709321;
+  --white-opacity: #ffffff21;
+  --danger-opacity: #ff000310;
+  --warning-opacity: #ff8f3c10;
+  --success-opacity: #3eb75e10;
+  --black-opacity: rgba(0, 0, 0, 0.04);
+  --heading-opacity: #19233550;
+  --color-card-1: #fffccf;
+  --color-card-2: #ffedff;
+  --color-card-3: #ffe8eb;
+  --color-card-4: #e9f6ff;
+  --color-card-5: #5024d1;
+  --color-card-6: #3b3b46;
+  --color-success: #3eb75e;
+  --color-danger: #ff0003;
+  --color-warning: #ff8f3c;
+  --color-info: #1ba2db;
+  --color-primary-alt: #d1ebe6;
+  --color-primary-light: #f1f7ff;
+  --color-primary-lighter: #eef;
+  --color-secondary-alt: #fef4f4;
+  --color-extra: #f9f9ff;
+  --color-extra2: #f9f9ff;
+  --color-border: #e6e3f1;
+  --color-border-2: #e6e3f14f;
+  --color-badge-1: #303f5b;
+  --color-badge-2: #f2c94c;
+  --color-facebook: #3b5997;
+  --color-twitter: #1ba1f2;
+  --color-youtube: #ed4141;
+  --color-linkedin: #0077b5;
+  --color-pinterest: #e60022;
+  --color-instagram: #c231a1;
+  --color-vimeo: #00adef;
+  --color-twitch: #6441a3;
+  --color-discord: #7289da;
+  --radius-10: 10px;
+  --radius-big: 16px;
+  --radius-small: 6px;
+  --border-width: 2px;
+  --radius: 6px;
+  --f-light: 300;
+  --f-regular: 400;
+  --f-medium: 500;
+  --f-semi-bold: 600;
+  --f-bold: 700;
+  --f-extra-bold: 800;
+  --f-black: 900;
+  --shadow-primary: 0px 4px 10px rgba(37, 47, 63, 0.1);
+  --shadow-light: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+  --shadow-dark: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+  --shadow-1: 0px 6px 34px rgba(215, 216, 222, 0.41);
+  --shadow-slide-item: 0px 0 10px 0 rgba(215, 216, 222, 0.2);
+  --shadow-2: 0 15px 34px 0 rgba(175, 181, 204, 0.32);
+  --shadow-3: 0 5px 15px 0 rgba(85, 74, 101, 0.37);
+  --shadow-5: 0px 20px 70px 0px rgba(0, 0, 0, 0.1);
+  --shadow-7: 0px 15px 30px -2px rgba(0, 0, 0, 0.1);
+  --shadow-8: -5px 18px 60px 0 rgba(210, 210, 234, 0.4);
+  --shadow-9: 0 13px 48px 0 rgba(215, 216, 222, 0.44);
+  --shadow-10: 0 13px 14px 0 rgba(129, 104, 145, 0.05);
+  --shadow-11: 0 0 10px 0 rgba(0, 0, 0, 0.06);
+  --transition: 0.3s;
+  --transition-2: 256ms ease-in-out;
+  --transition-3: transform 0.85s cubic-bezier(0.23, 1, 0.32, 1),
+    background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  --transition-4: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  --font-primary: 'Montserrat';
+  --font-secondary: 'TenorSans';
+  --font-special: 'rosamarena';
+  --font-alt: 'Source Serif Pro', serif;
+  --font-size-b1: 24px;
+  --font-size-b2: 18px;
+  --font-size-b3: 16px;
+  --font-size-b4: 12px;
+  --line-height-b1: 1.5;
+  --line-height-b2: 1.67;
+  --line-height-b3: 1.67;
+  --line-height-b4: 1;
+  --h1: 52px;
+  --h2: 44px;
+  --h3: 34px;
+  --h4: 30px;
+  --h5: 20px;
+  --h6: 16px;
+  --div-gap-1: 10px;
+  --color-bg: #f3f3f3;
+  --gradient-1: linear-gradient(
+    45deg,
+    #922bfa,
+    #ffdfba
+  ); /* светло-фиолетовый к средне-фиолетовому к светло-розовому к светло-розовому к светло-желтому */
+  --gradient-2: linear-gradient(90deg, #9166bd, #ffdfba);
+  // 957dad, 9166bd, a97dd4, 922bfa /* светло-розовый к светло-розовому к средне-фиолетовому к светло-фиолетовому к светло-желтому */
+  --gradient-3: linear-gradient(
+    180deg,
+    #cbd5fb,
+    #ffdfba,
+    #ffffff
+  ); /* светло-фиолетовый к средне-фиолетовому к светло-розовому к светло-розовому к светло-желтому */
+  --gradient-4: linear-gradient(
+    180deg,
+    #ffffff,
+    #ffdfba,
+    #cbd5fb
+  ); /* светло-розовый к светло-розовому к средне-фиолетовому к светло-фиолетовому к светло-желтому */
+  --gradient-5: linear-gradient(270deg, #cbd5fb, #957dad, #ffdfba);
+  --gradient-5-1: linear-gradient(270deg, #cbd5fb, #ffdfba);
+  --gradient-5-2: linear-gradient(270deg, #ffb171, #542faa);
+  --gradient-5-2-05: linear-gradient(
+    270deg,
+    rgba(255, 142, 113, 0.5),
+    rgba(144, 144, 255, 0.5)
+  );
+ /* светло-фиолетовый к средне-фиолетовому к светло-розовому к светло-розовому к светло-желтому */
+  --gradient-6: linear-gradient(
+    90deg,
+    #957dad,
+    #cbd5fb,
+    #ffdfba
+  ); /* светло-розовый к светло-розовому к средне-фиолетовому к светло-фиолетовому к светло-желтому */
+  --gradient-7: linear-gradient(
+    218.15deg,
+    #957dad,
+    #ffdfba
+  ); /* светло-фиолетовый к средне-фиолетовому к светло-розовому к светло-розовому к светло-желтому */
+  --gradient-8: linear-gradient(
+    270deg,
+    #957dad,
+    #ffdfba,
+    #cbd5fb
+  ); /* светло-розовый к светло-розовому к средне-фиолетовому к светло-фиолетовому к светло-желтому */
+  --gradient-9: linear-gradient(
+    180deg,
+    #957dad,
+    #ffdfba
+  ); /* светло-фиолетовый к средне-фиолетовому к светло-розовому к светло-розовому к светло-желтому */
+  --gradient-10: linear-gradient(
+    90deg,
+    #957dad,
+    #ffdfba
+  ); /* светло-розовый к светло-розовому к средне-фиолетовому к светло-фиолетовому к светло-желтому */
+  --title-color: #333;
+  --text-color: #333;
+  --primary-color: #333;
+  --link-color: #333;
+  --font-size-s: 12px;
+  --font-size-m: 16px;
+  --font-size-l: 20px;
+  --font-size-xl: 24px;
+  --font-size-b1: 32px;
+  --font-size-b2: 40px;
+  --font-size-b3: 48px;
+  --font-size-b4: 64px;
+  --font-line-s: 18px;
+  --font-line-m: 24px;
+  --font-line-l: 30px;
+  --font-line-xl: 36px;
+  --font-line-b1: 48px;
+  --font-line-b2: 60px;
+  --font-line-b3: 72px;
+  --font-line-b4: 96px;
+  --font-s: var(--font-size-s) / var(--font-line-s) var(--font-family-main);
+  --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+  --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+  --font-xl: var(--font-size-xl) / var(--font-line-xl) var(--font-family-main);
+  --font-b1: var(--font-size-b1) / var(--font-line-b1) var(--font-family-main);
+  --font-b2: var(--font-size-b2) / var(--font-line-b2) var(--font-family-main);
+  --font-b3: var(--font-size-b3) / var(--font-line-b3) var(--font-family-main);
+  --font-b4: var(--font-size-b4) / var(--font-line-b4) var(--font-family-main);
+  --h1: var(--font-size-b4) / var(--font-line-b4) var(--font-family-header);
+  --h2: var(--font-size-b3) / var(--font-line-b3) var(--font-family-header);
+  --h3: var(--font-size-b2) / var(--font-line-b2) var(--font-family-header);
+  --h4: var(--font-size-b1) / var(--font-line-b1) var(--font-family-header);
+  --h5: var(--font-size-l) / var(--font-line-l) var(--font-family-header);
+  --h6: var(--font-size-m) / var(--font-line-m) var(--font-family-header);
+  --p: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+  --p-bold: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+  --p-medium: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+  --p-regular: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+  --p-light: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+  --p-italic: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+}

@@ -1,0 +1,37 @@
+@use 'reset';
+@use 'variables/global';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.app {
+  font: var(--font-m);
+  color: var(--primary-color);
+  background: var(--bg-color);
+  min-height: 100vh;
+}
+
+.content-page {
+  display: flex;
+}
+
+*::-webkit-scrollbar {
+  // width: 120px; /* ширина scrollbar */
+  // height: 80px;
+  display: none;
+}
+
+/* Для Firefox */
+// * {
+//   scrollbar-width: thin; /* скрыть скроллбар */
+//   -ms-overflow-style: none; /* для Internet Explorer и Edge */
+// }
+
+// *::-webkit-scrollbar-track {
+//   background: var(--card-bg-color); /* цвет дорожки */
+// }
+
+// *::-webkit-scrollbar-thumb {
+//   background-color: var(--inverted-primary-color); /* цвет плашки */
+//   border-radius: 20px; /* закругления плашки */
+//   border: 2px solid var(--primary-color); /* padding вокруг плашки */
+// }
