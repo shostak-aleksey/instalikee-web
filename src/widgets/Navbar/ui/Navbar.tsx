@@ -2,6 +2,7 @@ import { memo, useState } from 'react';
 import Icon from '@/shared/assets/icon-instaLikee';
 import IconNetwork from '@/shared/assets/IconNetwork';
 import './Navbar.scss'; // Assuming you have a CSS file for styles
+import { Link } from 'react-scroll';
 
 export const Navbar = memo(() => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -86,22 +87,28 @@ export const Navbar = memo(() => {
       <ul className="hidden lg:flex lg:justify-around xl:flex w-full">
       <div className="hidden lg:flex xl:flex space-x-8 mx-auto lg:translate-x-8 xl:translate-x-18 2xl:translate-x-48">
         <li className="self-center font-bold leading-tight tracking-tight mb-2 text-xs sm:text-sm md:text-l 2xl:text-xl xl:text-lg whitespace-nowrap">
-        <a href="#about" className="relative cool-link fromLeft navbar-border_animated">
-          О нас
-          <span className="absolute left-0 bottom-0 w-full h-0.5 bg-black transform scale-x-0 transition-transform duration-300 ease-in-out origin-left"></span>
-        </a>
+          <Link to="about" offset={350} smooth={true} duration={500} className=''>
+            <a href="#about" className="relative cool-link fromLeft navbar-border_animated">
+              О нас
+              <span className="absolute left-0 bottom-0 w-full h-0.5 bg-black transform scale-x-0 transition-transform duration-300 ease-in-out origin-left"></span>
+            </a>         
+          </Link>
         </li>
         <li className="self-center font-bold leading-tight tracking-tight mb-2 text-xs sm:text-sm md:text-l 2xl:text-xl xl:text-lg whitespace-nowrap">
-        <a href="#contact" className="relative cool-link navbar-border_animated">
-          Связаться с нами
-          <span className="absolute left-0 bottom-0 w-full h-0.5 bg-black transform scale-x-0 transition-transform duration-300 ease-in-out origin-left"></span>
-        </a>
+          <Link to="contact" offset={50} smooth={true} duration={500} className=''>
+            <a href="#contact" className="relative cool-link navbar-border_animated">
+              Связаться с нами
+              <span className="absolute left-0 bottom-0 w-full h-0.5 bg-black transform scale-x-0 transition-transform duration-300 ease-in-out origin-left"></span>
+            </a>       
+          </Link>
         </li>
         <li className="self-center font-bold leading-tight tracking-tight mb-2 text-xs sm:text-sm md:text-l 2xl:text-xl xl:text-lg whitespace-nowrap">
-        <a href="#legal" className="relative cool-link fromRight navbar-border_animated">
-          Юридическая информация и политика
-          <span className="absolute left-0 bottom-0 w-full h-0.5 bg-black transform scale-x-0 transition-transform duration-300 ease-in-out origin-left"></span>
-        </a>
+        <Link to="legal" offset={-50} smooth={true} duration={500} className=''>
+          <a href="#legal" className="relative cool-link fromRight navbar-border_animated">
+            Юридическая информация и политика
+            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-black transform scale-x-0 transition-transform duration-300 ease-in-out origin-left"></span>
+          </a>
+        </Link>
         </li>
       </div>
       <div className="ml-auto">
