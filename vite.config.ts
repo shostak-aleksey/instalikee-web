@@ -28,7 +28,7 @@ export default defineConfig({
       output: {
         manualChunks: {
           // Разделение кода на чанки
-          vendor: ['react', 'react-dom', 'gsap'],
+          vendor: ['react', 'react-dom'],
         },
       },
     },

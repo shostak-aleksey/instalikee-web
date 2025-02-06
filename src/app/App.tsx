@@ -1,18 +1,15 @@
-import { classNames as c } from '@/shared/lib/classNames/classNames';
+import MainPage from '@/pages/MainPage';
 import { Navbar } from '@/widgets/Navbar';
 import { Footer } from '@/widgets/Navbar copy';
-import { AppRouter } from './providers/router';
 
 
-interface AppProps {
-  className?: string;
-}
 
-export const App = ({ className }: AppProps) => {
+
+export const App = () => {
   return (
-    <main className={c('app', {}, [className])}>
+    <main className={'app'}>
         <Navbar/>
-        <AppRouter />
+        <MainPage/>
         <Footer/>
     </main>
   );
