@@ -128,12 +128,18 @@ function MainPage() {
           </div>
           <img src={phone3} className='xl:mt-[-50px] lg:mt-[-230px] sm:m-0 md:m-0 xl:h-[579.95px] xl:w-[75vw] lg:h-[500px] lg:w-[75vw] lg:right-[-78px] md:h-[40vw] md:w-[75vw] sm:right-16 sm:absolute sm:justify-self-center md:right-9 md:absolute md:justify-self-center max-h-[739.95px] max-w-[1688.64px] xl:absolute lg:absolute top-[-70px] left-[35vw] object-contain ml-14 md:mx-auto sm:mx-auto'></img>
           <div className='flex justify-start'>
-            <img src={'https://s3-alpha-sig.figma.com/img/94b6/dad7/ba21b150dedfcda9eba39caf7f5778c1?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=l6L8S7kDbo4zs2SujZY7QxjY6aWDq~uCfOUw3CZeWOw49-qGwRBUseQNO71zUG7RLF-02INbg8XIYme-ZC5kuNhBV6ansxj4YudpbTyBp5StyEHxc394g2LWvDazcy~k87ekVxIbavEB43faord1TWUxGGqcgivmWiREHYQqEJdlRb3kK1Nscx9suetrKYdlAGtwb5By7VSrfXTUIkg9eAMo33bdYYIFJU40WYlZDRaMom~zgQzrturZxB6anhf4E4Wgfy0dNKGqyUHl9cJWNnf~Dgm416m5VZss5iq~Lo1hz5XUnm4~cbSu45zW-36Vr6rRoVeK5d0OPHVWDDXsog__'}
-            className=' h-[53px] w-[193px] object-contain mt-5 ml-[-10px]'></img>
+            <a href="https://support.google.com/googleplay" target="_blank" rel="noopener noreferrer">
             <img src={'https://s3-alpha-sig.figma.com/img/c534/4b05/5772939794a569e1e5bc72e8dade9753?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NSSDMxehQyFc8j2bEh6GcrFJuH8EDEOivYCv3FG7VrB0gu9ND3m~RtEzNIsocrk3Q-NWb~TBaUo5X8~GJJSVlXEhbwRQjQ0hjZ9ZsnmKy2EBH6aAYh7tlhGtMXM8mRuifHtOwtTjmpJEyylPesj5Pml3TgFd1kQC8GzBo2d~70WfOxexBHzg1FbKc4MZ8OVnQ9-jBAtz2h-WB~kCOGzT05hSxp2qoiHx~Y2qoc7POXmk~E9fFxDqVRAfI9pQ9AVmVKdYoJw5srvfv7XsTm-YQsdXFJFScGHTQ0HZDqE3u~~1-7ltioZ~ySTUt9uMuaC2QKRMcHiYIQrAn9EyBXruug__'}
-            className=' h-[53px] w-[193px] object-contain mt-5 ml-[-10px]'></img>
-            <img src={rustore}
-            className=' h-[53px] w-[193px] object-contain mt-5 ml-[-10px]'></img>
+            className=' h-[53px] w-[193px] object-contain mt-5 ml-[-10px]' alt="App Store"></img>
+            </a>
+            <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer">
+              <img src={'https://s3-alpha-sig.figma.com/img/94b6/dad7/ba21b150dedfcda9eba39caf7f5778c1?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=l6L8S7kDbo4zs2SujZY7QxjY6aWDq~uCfOUw3CZeWOw49-qGwRBUseQNO71zUG7RLF-02INbg8XIYme-ZC5kuNhBV6ansxj4YudpbTyBp5StyEHxc394g2LWvDazcy~k87ekVxIbavEB43faord1TWUxGGqcgivmWiREHYQqEJdlRb3kK1Nscx9suetrKYdlAGtwb5By7VSrfXTUIkg9eAMo33bdYYIFJU40WYlZDRaMom~zgQzrturZxB6anhf4E4Wgfy0dNKGqyUHl9cJWNnf~Dgm416m5VZss5iq~Lo1hz5XUnm4~cbSu45zW-36Vr6rRoVeK5d0OPHVWDDXsog__'}
+              className=' h-[53px] w-[193px] object-contain mt-5 ml-[-10px]' alt="Google Play"></img>
+            </a>
+            <a href="https://www.rustore.ru/" target="_blank" rel="noopener noreferrer">
+              <img src={rustore}
+              className=' h-[53px] w-[193px] object-contain mt-5 ml-[-10px]' alt="RuStore"></img>
+            </a>
           </div>
         </div>
         <div className='block xl:hidden w-[100%] h-[302px] pl-14 pt-4 relative bg-gradient-to-r from-yellow-500 to-[#FC01C6]'>
@@ -150,14 +156,20 @@ function MainPage() {
           className='xl:hidden 2xl:hidden lg:mt-[-20px] sm:m-0 md:m-0 xl:h-[579.95px] xl:w-[75vw] lg:h-[500px] lg:w-[75vw] lg:right-[-300px] md:right-[-300px] md:h-[450px] md:w-[75vw] sm:right-16 sm:absolute sm:justify-self-center md:absolute md:justify-self-center max-h-[739.95px] max-w-[1688.64px] xl:absolute lg:absolute top-[-70px] left-[35vw] object-contain ml-14 md:mx-auto sm:mx-auto'></img>
 
           <div>
-            <div className='justify-start flex'>
+          <div className='flex justify-start'>
+            <a href="https://support.google.com/googleplay" target="_blank" rel="noopener noreferrer">
+            <img src={'https://s3-alpha-sig.figma.com/img/c534/4b05/5772939794a569e1e5bc72e8dade9753?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NSSDMxehQyFc8j2bEh6GcrFJuH8EDEOivYCv3FG7VrB0gu9ND3m~RtEzNIsocrk3Q-NWb~TBaUo5X8~GJJSVlXEhbwRQjQ0hjZ9ZsnmKy2EBH6aAYh7tlhGtMXM8mRuifHtOwtTjmpJEyylPesj5Pml3TgFd1kQC8GzBo2d~70WfOxexBHzg1FbKc4MZ8OVnQ9-jBAtz2h-WB~kCOGzT05hSxp2qoiHx~Y2qoc7POXmk~E9fFxDqVRAfI9pQ9AVmVKdYoJw5srvfv7XsTm-YQsdXFJFScGHTQ0HZDqE3u~~1-7ltioZ~ySTUt9uMuaC2QKRMcHiYIQrAn9EyBXruug__'}
+            className=' h-[53px] w-[193px] object-contain mt-5 ml-[-10px]' alt="App Store"></img>
+            </a>
+            <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer">
               <img src={'https://s3-alpha-sig.figma.com/img/94b6/dad7/ba21b150dedfcda9eba39caf7f5778c1?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=l6L8S7kDbo4zs2SujZY7QxjY6aWDq~uCfOUw3CZeWOw49-qGwRBUseQNO71zUG7RLF-02INbg8XIYme-ZC5kuNhBV6ansxj4YudpbTyBp5StyEHxc394g2LWvDazcy~k87ekVxIbavEB43faord1TWUxGGqcgivmWiREHYQqEJdlRb3kK1Nscx9suetrKYdlAGtwb5By7VSrfXTUIkg9eAMo33bdYYIFJU40WYlZDRaMom~zgQzrturZxB6anhf4E4Wgfy0dNKGqyUHl9cJWNnf~Dgm416m5VZss5iq~Lo1hz5XUnm4~cbSu45zW-36Vr6rRoVeK5d0OPHVWDDXsog__'}
-              className='h-[53px] w-[193px] object-contain mt-5 ml-[-10px]'></img>
-              <img src={'https://s3-alpha-sig.figma.com/img/c534/4b05/5772939794a569e1e5bc72e8dade9753?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NSSDMxehQyFc8j2bEh6GcrFJuH8EDEOivYCv3FG7VrB0gu9ND3m~RtEzNIsocrk3Q-NWb~TBaUo5X8~GJJSVlXEhbwRQjQ0hjZ9ZsnmKy2EBH6aAYh7tlhGtMXM8mRuifHtOwtTjmpJEyylPesj5Pml3TgFd1kQC8GzBo2d~70WfOxexBHzg1FbKc4MZ8OVnQ9-jBAtz2h-WB~kCOGzT05hSxp2qoiHx~Y2qoc7POXmk~E9fFxDqVRAfI9pQ9AVmVKdYoJw5srvfv7XsTm-YQsdXFJFScGHTQ0HZDqE3u~~1-7ltioZ~ySTUt9uMuaC2QKRMcHiYIQrAn9EyBXruug__'}
-              className='h-[53px] w-[193px] object-contain mt-5 ml-[-10px]'></img>
+              className=' h-[53px] w-[193px] object-contain mt-5 ml-[-10px]' alt="Google Play"></img>
+            </a>
+            <a href="https://www.rustore.ru/" target="_blank" rel="noopener noreferrer">
               <img src={rustore}
-              className='h-[53px] w-[193px] object-contain mt-5 ml-[-10px]'></img>
-            </div>
+              className=' h-[53px] w-[193px] object-contain mt-5 ml-[-10px]' alt="RuStore"></img>
+            </a>
+          </div>
           </div>
         </div>
       </section>
