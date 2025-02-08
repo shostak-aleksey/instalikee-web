@@ -10,5 +10,28 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script type="module" >
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.3.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.3.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyDutP8ivLewiHinKVik7EBubGivSAqLV1E",
+        authDomain: "instalikee-1ffb0.firebaseapp.com",
+        projectId: "instalikee-1ffb0",
+        storageBucket: "instalikee-1ffb0.firebasestorage.app",
+        messagingSenderId: "484261838273",
+        appId: "1:484261838273:web:1d846cae7b5391cd29c340",
+        measurementId: "G-KRQ8N0QXCN"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>

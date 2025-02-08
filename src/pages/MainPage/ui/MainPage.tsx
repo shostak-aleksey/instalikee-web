@@ -39,7 +39,8 @@ function MainPage() {
 
       try {
         const emailData = {
-          to: 'meta-group@inbox.ru',
+          // to: 'meta-group@inbox.ru',
+          to: 'instalikee123@gmail.com',
           from: formValues.email as string,
           subject: 'Новое сообщение с формы контактов',
           text: `
