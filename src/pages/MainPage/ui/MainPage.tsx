@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import phone1 from '@/shared/assets/phone1.png';
 import phone2 from '@/shared/assets/phone2.png';
 import phone3 from '@/shared/assets/phone3.png';
@@ -12,22 +12,66 @@ import { useTranslation } from 'react-i18next';
 function MainPage() {
   const { t } = useTranslation();
   const form = useRef<HTMLFormElement>(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [formStatus, setFormStatus] = useState<{
+    message: string;
+    isError: boolean;
+  } | null>(null);
 
-  const sendEmail = (e: React.FormEvent) => {
+  const sendEmail = async (e: React.FormEvent) => {
     e.preventDefault();
+    setIsSubmitting(true);
+    setFormStatus(null);
 
     if (form.current) {
       const formData = new FormData(form.current);
       const formValues = Object.fromEntries(formData);
 
-      emailjs.send('service_2ycxoel', 'template_igsrlyp', formValues, 'oSrts0UzsRR7dkpVn')
-        .then((result) => {
-          console.log(result.text, result);
-          alert(t('Message sent successfully!'));
-        }, (error) => {
-          console.log(error.text);
-          alert(t('Failed to send message, please try again.'));
+      // Простая валидация
+      if (!formValues.name || !formValues.email || !formValues.phone || !formValues.message) {
+        setFormStatus({
+          message: 'Пожалуйста, заполните все поля',
+          isError: true
         });
+        setIsSubmitting(false);
+        return;
+      }
+
+      try {
+        const emailData = {
+          to: 'meta-group@inbox.ru',
+          from: formValues.email as string,
+          subject: 'Новое сообщение с формы контактов',
+          text: `
+            Имя: ${formValues.name}
+            Email: ${formValues.email}
+            Телефон: ${formValues.phone}
+            Сообщение: ${formValues.message}
+          `,
+          ...formValues
+        };
+
+        await emailjs.send(
+          'service_2ycxoel',
+          'template_igsrlyp',
+          emailData,
+          'oSrts0UzsRR7dkpVn'
+        );
+
+        setFormStatus({
+          message: 'Сообщение успешно отправлено!',
+          isError: false
+        });
+        form.current.reset();
+      } catch (error) {
+        console.error('Ошибка при отправке:', error);
+        setFormStatus({
+          message: 'Ошибка при отправке сообщения. Пожалуйста, попробуйте снова.',
+          isError: true
+        });
+      } finally {
+        setIsSubmitting(false);
+      }
     }
   };
 
@@ -80,22 +124,64 @@ function MainPage() {
       </Element>
       <Element name="contact">
       <section id="contact" className='mb-64 flex flex-row-reverse lg:flex-col md:flex-col xl:flex-row-reverse sm:flex-col pt-48 lg:mt-0 sm:mt-24 m-auto pr-10 pl-[8vw] max-w-[1920px] relative'>
-          <form className='flex mr-14 mt-32 flex-col w-[50vw] sm:w-full sm:order-2' ref={form} onSubmit={sendEmail}>
-            <input type='text' name="name" placeholder={t('Name')} className='mb-4 p-2 border border-gray-300 rounded' />
-            <input type='email' name="email" placeholder={t('Email')} className='mb-4 p-2 border border-gray-300 rounded' />
-            <input type='text' name="phone" placeholder={t('Phone')} className='mb-4 p-2 border border-gray-300 rounded' />
-            <textarea name="message" placeholder={t('Message')} className='mb-4 p-2 border border-gray-300 rounded h-32'></textarea>
-            <button className='w-[172px] h-[35px] max-w-[172px] max-h-[35px] mt-[20px] text-white rounded-tl-[8.05px] bg-gradient-to-r from-yellow-500 to-[#FC01C6] font-golos-text text-[17px] font-normal leading-[20.4px] tracking-[-0.3px] text-center decoration-skip-ink-none sm:w-[120px] sm:h-[30px] sm:text-[14px] md:w-[140px] md:h-[32px] md:text-[15px] lg:w-[150px] lg:h-[33px] lg:text-[16px] xl:w-[160px] xl:h-[34px] xl:text-[16.5px]'>
-              {t('Send')}
-            </button>
-          </form>
-        <div className='flex mb-[-15px] flex-col w-[50vw] items-center justify-center sm:w-full sm:order-1'>
-          <h2 className='mb-14 text-[75px] font-extrabold leading-[90px] tracking-[-0.3px] text-right underline decoration-skip-ink-none font-golos-text text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-[#FC01C6] sm:text-[50px] sm:leading-[60px] md:text-[60px] md:leading-[70px] lg:text-[65px] lg:leading-[80px] xl:text-[70px] xl:leading-[85px] whitespace-nowrap'>
-            {t('Contact Us')}
-          </h2>
-          <IconGroup />
-        </div>      
-      </section>
+      <form 
+        className='flex mr-14 mt-32 flex-col w-[50vw] sm:w-full sm:order-2' 
+        ref={form} 
+        onSubmit={sendEmail}
+      >
+        <input 
+          type='text' 
+          name="name" 
+          placeholder={t('Name')} 
+          className='mb-4 p-2 border border-gray-300 rounded'
+          disabled={isSubmitting}
+          required 
+        />
+        <input 
+          type='email' 
+          name="email" 
+          placeholder={t('Email')} 
+          className='mb-4 p-2 border border-gray-300 rounded'
+          disabled={isSubmitting}
+          required 
+        />
+        <input 
+          type='tel' 
+          name="phone" 
+          placeholder={t('Phone')} 
+          className='mb-4 p-2 border border-gray-300 rounded'
+          disabled={isSubmitting}
+          required 
+        />
+        <textarea 
+          name="message" 
+          placeholder={t('Message')} 
+          className='mb-4 p-2 border border-gray-300 rounded h-32'
+          disabled={isSubmitting}
+          required
+        ></textarea>
+        
+        {formStatus && (
+          <div className={`mb-4 p-2 rounded ${formStatus.isError ? 'bg-red-100 text-red-700' : 'bg-green-100 text-green-700'}`}>
+            {formStatus.message}
+          </div>
+        )}
+
+        <button 
+          type="submit"
+          disabled={isSubmitting}
+          className={`w-[172px] h-[35px] max-w-[172px] max-h-[35px] mt-[20px] text-white rounded-tl-[8.05px] bg-gradient-to-r from-yellow-500 to-[#FC01C6] font-golos-text text-[17px] font-normal leading-[20.4px] tracking-[-0.3px] text-center decoration-skip-ink-none sm:w-[120px] sm:h-[30px] sm:text-[14px] md:w-[140px] md:h-[32px] md:text-[15px] lg:w-[150px] lg:h-[33px] lg:text-[16px] xl:w-[160px] xl:h-[34px] xl:text-[16.5px] ${isSubmitting ? 'opacity-50 cursor-not-allowed' : ''}`}
+        >
+          {isSubmitting ? t('Sending...') : t('Send')}
+        </button>
+      </form>
+      <div className='flex mb-[-15px] flex-col w-[50vw] items-center justify-center sm:w-full sm:order-1'>
+        <h2 className='mb-14 text-[75px] font-extrabold leading-[90px] tracking-[-0.3px] text-right underline decoration-skip-ink-none font-golos-text text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-[#FC01C6] sm:text-[50px] sm:leading-[60px] md:text-[60px] md:leading-[70px] lg:text-[65px] lg:leading-[80px] xl:text-[70px] xl:leading-[85px] whitespace-nowrap'>
+          {t('Contact Us')}
+        </h2>
+        <IconGroup />
+      </div>      
+    </section>
         </Element>
         <Element name="legal">
       <section className='p-6 mb-64 flex flex-col items-center justify-center text-left'>
