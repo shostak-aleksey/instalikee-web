@@ -7,7 +7,7 @@ import { Footer } from '@/widgets/Navbar copy';
 
 export const App = () => {
   return (
-    <main className={'app'}>
+    <main className='app overflow-x-hidden'>
         <Navbar/>
         <MainPage/>
         <Footer/>
