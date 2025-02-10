@@ -23,7 +23,7 @@ const IconGroup: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
         <path d="M57.1333 67.3395L47.1616 77.2343L47.7248 77.4903C48.2881 77.7463 48.4673 77.7463 76.7054 77.7463C104.201 77.7463 105.148 77.7335 105.75 77.5031L106.364 77.2599L102.486 73.3685C100.348 71.2308 95.8422 66.7634 92.4757 63.4481L86.357 57.419L84.6673 59.0703C82.6704 61.0416 82.2352 61.3872 81.0192 62.0016C77.7166 63.6529 73.71 63.2305 70.8299 60.9136C70.3947 60.568 69.4218 59.6591 68.641 58.8783C67.873 58.0974 67.2073 57.4574 67.1689 57.4574C67.1305 57.4574 62.6119 61.912 57.1333 67.3395Z" fill="url(#paint3_linear_12_79)"/>
       </g>
       {/* Text "Россия" in the first rectangle */}
-      <text x="10" y="115" font-family="Arial" font-size="16" fontWeight='normal' fill="#333">{t('instalike@mail.ru')}</text>
+      <text x="10" y="115" font-family="Arial" font-size="13" fontWeight='normal' fill="#333">{t('meta-group@inbox.ru')}</text>
       {/* Text "Россия" in the second rectangle with translation */}
       <text x="235" y="115" font-family="Arial" font-size="20" fontWeight='normal' fill="#333">{t('Россия')}</text>
 
