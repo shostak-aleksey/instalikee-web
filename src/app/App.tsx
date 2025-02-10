@@ -7,10 +7,12 @@ import { Footer } from '@/widgets/Navbar copy';
 
 export const App = () => {
   return (
-    <main className='app overflow-x-hidden'>
+    <main className='app'>
         <Navbar/>
         <MainPage/>
-        <Footer/>
+        <div className='hidden lg:block'>
+          <Footer/>
+        </div>
     </main>
   );
 };

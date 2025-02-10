@@ -5,7 +5,14 @@ const IconGroup: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
   const { t } = useTranslation();
 
   return (
-    <svg {...props} width="348" height="137" viewBox="0 0 348 137" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg
+  {...props}
+  className="w-[300px] sm:w-[348px] mx-auto"
+  height="137"
+  viewBox="0 0 348 137"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
       <rect width="154" height="137" rx="11" fill="white"/>
       <rect x="194" width="154" height="137" rx="11" fill="white"/>
 
