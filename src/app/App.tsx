@@ -10,9 +10,9 @@ export const App = () => {
     <main className='app'>
         <Navbar/>
         <MainPage/>
-        <div className='hidden lg:block'>
+        
           <Footer/>
-        </div>
+        
     </main>
   );
 };
