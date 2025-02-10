@@ -18,6 +18,15 @@ function MainPage() {
     isError: boolean;
   } | null>(null);
 
+  const getOffset = (id: string) => {
+    if (id === 'about') {
+      return 120;
+    } else if (id === 'legal') {
+      return -80;
+    }
+    return 70;
+  };
+
   const sendEmail = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -78,7 +87,7 @@ function MainPage() {
 
   return (
 <div className='overflow-x-hidden'>
-  <section id="home" className='md:flex-row  lg:flex-row xl:flex-row 2xl:flex-row flex flex-col-reverse items-center gap-14 sm:gap-0 pr-0 sm:flex-col-reverse mt-[100px] relative xl:mt-0 m-auto md:pr-10 max-w-[1920px]'>
+  <section id="home" className='md:flex-row  lg:flex-row xl:flex-row 2xl:flex-row flex flex-col-reverse items-center gap-14 sm:gap-0 pr-0 sm:flex-col-reverse mt-[10px] relative xl:mt-0 m-auto md:pr-10 max-w-[1920px]'>
     <div className='relative mr-10'>
       <img src={phone1} className='sm:w-[400px] sm:h-[400px] h-[350px] w-[350px] md:w-[50vw] md:h-[50vw] max-w-[960px] max-h-[960px] relative top-[4vw] left-[5vw]'></img>
       <div className='  sm:w-[350px] sm:h-[350px] w-[300px] h-[300px] md:w-[40vw] md:h-[40vw] max-w-[768px] max-h-[768px] z-[-1] absolute top-[7vw] left-[8vw] rounded-full bg-gradient-to-r from-yellow-500 to-[#FC01C6]'></div>
@@ -92,7 +101,7 @@ function MainPage() {
       <p className='lg:w-[42vw] text-left sm:w-[320px] w-[300px] xl:w-[42vw] 2xl:w-[42vw] md:w-[42vw] text-justify- sm:text-left md:text-right max-w-[806px] mt-8 mb-4 font-golos-text text-[16px] font-normal leading-[22px] tracking-[-0.3px] mb:text-right lg:text-right xl:text-right  decoration-skip-ink-none sm:text-[16px] md:text-[20px] md:leading-[24px] lg:text-[21px] lg:leading-[25px] xl:text-[22px] xl:leading-[26px]'>
         {t('InstaLikee — leading platform')}
       </p>
-      <Link to="about" offset={350} smooth={true} duration={500} className=''>
+      <Link to="about" offset={getOffset('about')} smooth={true} duration={500} className=''>
 
             <button
               className='w-[80vw] h-[40px] max-w-[300px] max-h-[35px] mt-[20px] sm:mt-[20px] text-white rounded-tl-[8.05px] bg-gradient-to-r from-yellow-500 to-[#FC01C6] font-golos-text text-[14px] font-normal leading-[20.4px] tracking-[-0.3px] text-center decoration-skip-ink-none sm:w-[80vw] sm:h-[40px] md:w-[140px] md:h-[32px] md:text-[15px] lg:w-[150px] lg:h-[33px] lg:text-[16px] xl:w-[160px] xl:h-[34px] xl:text-[16.5px]'
@@ -100,7 +109,7 @@ function MainPage() {
               {t('Learn More')}
             </button>
       </Link>
-      <Link to="about" offset={350} smooth={true} duration={500} className='absolute lg:bottom-[0px] xl:bottom-[50px] left-[49.5%] hidden md:block md:absolute md:bottom-[-100px] cursor-pointer mt-10'>
+      <Link to="about" offset={getOffset('about')} smooth={true} duration={500} className='absolute lg:bottom-[0px] xl:bottom-[50px] left-[49.5%] hidden md:block md:absolute md:bottom-[-100px] cursor-pointer mt-10'>
         <CircleWithArrow />
       </Link>
     </div>
