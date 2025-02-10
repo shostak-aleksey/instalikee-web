@@ -78,7 +78,7 @@ function MainPage() {
 
   return (
 <div className='overflow-x-hidden'>
-  <section id="home" className='md:flex-row lg:flex-row xl:flex-row 2xl:flex-row flex flex-col-reverse items-center gap-14 sm:gap-0 pr-0 sm:flex-col-reverse mt-[50px] relative xl:mt-0 m-auto md:pr-10 max-w-[1920px]'>
+  <section id="home" className='md:flex-row  lg:flex-row xl:flex-row 2xl:flex-row flex flex-col-reverse items-center gap-14 sm:gap-0 pr-0 sm:flex-col-reverse mt-[100px] relative xl:mt-0 m-auto md:pr-10 max-w-[1920px]'>
     <div className='relative mr-10'>
       <img src={phone1} className='sm:w-[400px] sm:h-[400px] h-[350px] w-[350px] md:w-[50vw] md:h-[50vw] max-w-[960px] max-h-[960px] relative top-[4vw] left-[5vw]'></img>
       <div className='  sm:w-[350px] sm:h-[350px] w-[300px] h-[300px] md:w-[40vw] md:h-[40vw] max-w-[768px] max-h-[768px] z-[-1] absolute top-[7vw] left-[8vw] rounded-full bg-gradient-to-r from-yellow-500 to-[#FC01C6]'></div>
@@ -185,8 +185,8 @@ function MainPage() {
     </section>
   </Element>
   <Element name="legal">
-    <section className='p-6 mb-64 flex flex-col items-center justify-center text-left'>
-      <h2 className='text-[35px]  mb-12 font-extrabold leading-[60px] tracking-[-0.3px] underline decoration-skip-ink-none font-golos-text text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-[#FC01C6] sm:text-[35px] md:text-[39px] md:leading-[70px] lg:text-[45px] lg:leading-[80px] xl:text-[55px] xl:leading-[72px]'>
+    <section className=' mb-64 flex flex-col items-center justify-center text-left'>
+      <h2 className='text-[35px] text-left  mb-12 font-extrabold leading-[60px] tracking-[-0.3px] underline decoration-skip-ink-none font-golos-text text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-[#FC01C6] sm:text-[35px] md:text-[39px] md:leading-[70px] lg:text-[45px] lg:leading-[80px] xl:text-[55px] xl:leading-[72px]'>
         {t('Legal Information and Policy')}
       </h2>
       <p className='w-[90vw] max-w-[1800px] mt-8 mb-4 font-golos-text text-[24px] font-normal leading-[22px] tracking-[-0.3px] decoration-skip-ink-none sm:text-[24px] sm:w-[80vw] md:text-[20px] md:leading-[24px] lg:text-[21px] lg:leading-[25px] xl:text-[22px] xl:leading-[26px]'>
@@ -229,36 +229,39 @@ function MainPage() {
         </a>
       </div>
     </div>
-    <div className='block xl:hidden w-[100%] h-[100%]  md:w-[100%] sm:h-[318px] pl-14 pt-4 pr-14 md:pr-0 relative bg-gradient-to-r from-yellow-500 to-[#FC01C6]'>
+   <div className='block xl:hidden w-[100%] h-[100%] sm:h-[330px] md:w-[100%] md:h-[318px] pl-14 pt-4 pr-14 md:pr-0 relative bg-gradient-to-r from-yellow-500 to-[#FC01C6]'>
       
-      <div className='flex flex-col self-center justify-start items-start lg:mr-[-150px] xl:mr-[-190px] ml-0 md:ml-[-15px] '>
+      <div className='flex flex-col self-center justify-center items-start lg:mr-[-150px] xl:mr-[-190px] ml-0 sm:ml-[-10px]  '>
         
-        <h2 className='text-[25px] text-left font-extrabold leading-[60px] tracking-[-0.3px] decoration-skip-ink-none font-golos-text text-transparent bg-clip-text text-white sm:text-[25px] md:text-[30px] md:leading-[70px] lg:text-[35px] lg:leading-[80px] xl:text-[45px] xl:leading-[85px]'>
+        <h2 className='text-[25px] text-center font-extrabold leading-[32px] tracking-[-0.3px] decoration-skip-ink-none font-golos-text text-transparent bg-clip-text text-white sm:text-[25px] md:text-[30px] md:leading-[70px] lg:text-[35px] lg:leading-[80px] xl:text-[45px] xl:leading-[85px]'>
           {t('Download the app, use it')}
         </h2>
-        <p className='max-w-[1060px]  md:w-[550px] w-[80vw] text-white mt-0 md-14 font-golos-text text-[24px] font-normal leading-[22px] tracking-[-0.3px] text-left decoration-skip-ink-none sm:text-[24px] md:text-[20px] md:leading-[24px] lg:text-[18px] lg:leading-[21px] xl:text-[22px] xl:leading-[26px] '>
+        <p className='max-w-[1060px] md:w-[550px] w-[75vw] text-white mt-[14px] md-14 font-golos-text text-[24px] font-normal leading-[22px] tracking-[-0.3px] text-left decoration-skip-ink-none sm:text-[24px] sm:w-[460px] md:text-[20px] md:leading-[24px] lg:text-[18px] lg:leading-[21px] xl:text-[22px] xl:leading-[26px] '>
           {t('new customers')}
         </p>
       </div>
-      <img src={phone3} className='lg:hidden  hidden md md:hidden sm:hidden xl:mt-[-50px] lg:mt-[-20px] sm:m-0 md:m-0 xl:h-[579.95px] xl:w-[75vw] lg:h-[500px] lg:w-[75vw] lg:right-[-78px] md:h-[40vw] md:w-[75vw] sm:right-16 sm:absolute sm:justify-self-center md:right-9 md:absolute md:justify-self-center max-h-[739.95px] max-w-[1688.64px] xl:absolute lg:absolute top-[-70px] left-[35vw] object-contain ml-14 md:mx-auto sm:mx-auto'></img>
-
-        <div className='flex items-center flex-wrap md:flex-nowrap sm:flex-row mt-6 gap-2 justify-start  md:ml-[-15px] ml-0'>
+      <img src={phone3} className='lg:hidden hidden md md:hidden sm:hidden xl:mt-[-50px] lg:mt-[-20px] sm:m-0 md:m-0 xl:h-[579.95px] xl:w-[75vw] lg:h-[500px] lg:w-[75vw] lg:right-[-78px] md:h-[40vw] md:w-[75vw] sm:right-16 sm:absolute sm:justify-self-center md:right-9 md:absolute md:justify-self-center max-h-[739.95px] max-w-[1688.64px] xl:absolute lg:absolute top-[-70px] left-[35vw] object-contain ml-14 md:mx-auto sm:mx-auto'></img>
+    
+        <div className='flex items-center justify-center sm:justify-center flex-nowrap md:flex-nowrap md:flex-row mt-6 gap-2 mb:justify-start md:ml-[-15px] ml-0'>
           <a href="https://support.google.com/googleplay" target="_blank" rel="noopener noreferrer">
             <img src={'https://s3-alpha-sig.figma.com/img/c534/4b05/5772939794a569e1e5bc72e8dade9753?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NSSDMxehQyFc8j2bEh6GcrFJuH8EDEOivYCv3FG7VrB0gu9ND3m~RtEzNIsocrk3Q-NWb~TBaUo5X8~GJJSVlXEhbwRQjQ0hjZ9ZsnmKy2EBH6aAYh7tlhGtMXM8mRuifHtOwtTjmpJEyylPesj5Pml3TgFd1kQC8GzBo2d~70WfOxexBHzg1FbKc4MZ8OVnQ9-jBAtz2h-WB~kCOGzT05hSxp2qoiHx~Y2qoc7POXmk~E9fFxDqVRAfI9pQ9AVmVKdYoJw5srvfv7XsTm-YQsdXFJFScGHTQ0HZDqE3u~~1-7ltioZ~ySTUt9uMuaC2QKRMcHiYIQrAn9EyBXruug__'}
               className=' h-[53px] w-[193px] object-contain mt-5 ml-[-10px]' alt="App Store"></img>
           </a>
           <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer">
             <img src={'https://s3-alpha-sig.figma.com/img/94b6/dad7/ba21b150dedfcda9eba39caf7f5778c1?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=l6L8S7kDbo4zs2SujZY7QxjY6aWDq~uCfOUw3CZeWOw49-qGwRBUseQNO71zUG7RLF-02INbg8XIYme-ZC5kuNhBV6ansxj4YudpbTyBp5StyEHxc394g2LWvDazcy~k87ekVxIbavEB43faord1TWUxGGqcgivmWiREHYQqEJdlRb3kK1Nscx9suetrKYdlAGtwb5By7VSrfXTUIkg9eAMo33bdYYIFJU40WYlZDRaMom~zgQzrturZxB6anhf4E4Wgfy0dNKGqyUHl9cJWNnf~Dgm416m5VZss5iq~Lo1hz5XUnm4~cbSu45zW-36Vr6rRoVeK5d0OPHVWDDXsog__'}
-              className=' h-[53px] w-[193px]  mt-5 ml-[-10px]' alt="Google Play"></img>
+              className=' h-[53px] w-[193px] mt-5 ml-[-10px]' alt="Google Play"></img>
           </a>
           <a href="https://www.rustore.ru/" target="_blank" rel="noopener noreferrer">
             <img src={rustore}
-              className=' h-[53px] w-[193px] sm:ml-[-15px] sm:object-contain mt-5 ml-[-10px]' alt="RuStore"></img>
+              className='h-[53px] w-[193px] ml-[-10px] mt-5 ' alt="RuStore"></img>
           </a>
         </div>
       <img src={'https://s3-alpha-sig.figma.com/img/f689/8dc2/988df1d65895d2e93e37e484abcd50e2?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Oa93HYf3DI6YzxuIeYDOmNfOsgrUb9ndKAnIsaHqH94~XG5W58K6W4lAvivqgy7zaYo6DAuvdq-rbjJRCpni4jNOMpxy~gSdrqFXumys49wQckKlzR3UnPQt5-euOm9Le6kvGlwybQyIVwk26U-nhA2YXxHbsa1O8UWAu3M7RCYQuv8i5R~fUclVVK~s0eExpNZ~-l5H~KwY7oo4-ZClTTrkgNaEYiNSyvFBEXstIUEU7ENf7bqXV~fYDqlNW1beASGWVoZa21p~kYaXCuF6PvBDcf6-bTHqIdH1EG8Utz7wALGK1lVFNqHhUn6Xodar8MqfLFX4KDcaITL9UdWW0w__'}
-        className='xl:hidden 2xl:hidden  lg:mt-[-20px] sm:m-0 md:m-0 xl:h-[579.95px] xl:w-[75vw] lg:h-[500px] lg:w-[75vw] lg:right-[-300px] md:right-[-300px] md:h-[450px] md:w-[75vw] sm:right-[-300px] sm:h-[450px] sm:w-[75vw] sm:absolute sm:justify-self-center md:absolute md:justify-self-center max-h-[739.95px] max-w-[1688.64px] xl:absolute lg:absolute top-[-70px] left-[35vw] object-contain ml-14 md:mx-auto sm:mx-auto'></img>
+        className='xl:hidden sm:hidden 2xl:hidden lg:mt-[-20px] sm:m-0 md:m-0 xl:h-[579.95px] xl:w-[75vw] lg:h-[500px] lg:w-[75vw] lg:right-[-300px] md:right-[-300px] md:h-[450px] md:w-[75vw] sm:right-[-300px] sm:h-[450px] sm:w-[75vw] sm:absolute justify-self-center sm:justify-self-center md:absolute md:justify-self-center max-h-[739.95px] max-w-[1688.64px] xl:absolute lg:absolute top-[-70px] left-[35vw] object-contain ml-14 md:mx-auto sm:mx-auto'></img>
     </div>
+    <img src={'https://s3-alpha-sig.figma.com/img/f689/8dc2/988df1d65895d2e93e37e484abcd50e2?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Oa93HYf3DI6YzxuIeYDOmNfOsgrUb9ndKAnIsaHqH94~XG5W58K6W4lAvivqgy7zaYo6DAuvdq-rbjJRCpni4jNOMpxy~gSdrqFXumys49wQckKlzR3UnPQt5-euOm9Le6kvGlwybQyIVwk26U-nhA2YXxHbsa1O8UWAu3M7RCYQuv8i5R~fUclVVK~s0eExpNZ~-l5H~KwY7oo4-ZClTTrkgNaEYiNSyvFBEXstIUEU7ENf7bqXV~fYDqlNW1beASGWVoZa21p~kYaXCuF6PvBDcf6-bTHqIdH1EG8Utz7wALGK1lVFNqHhUn6Xodar8MqfLFX4KDcaITL9UdWW0w__'}
+        className='xl:hidden hidden sm:block 2xl:hidden lg:mt-[-20px] sm:m-0 md:m-0 xl:h-[579.95px] xl:w-[75vw] lg:h-[500px] lg:w-[75vw] lg:right-[-300px] md:right-[-300px] md:h-[450px] md:w-[75vw] sm:right-[-300px] sm:h-[950px] sm:w-[750px] sm:ml-[-25px] justify-self-center sm:justify-self-center md:absolute md:justify-self-center max-h-[1050.95px] max-w-[1688.64px] xl:absolute lg:absolute top-[-70px] left-[35vw] object-contain ml-14 md:mx-auto sm:mx-auto'></img>
+    
   </section>
 </div>
   )
