@@ -49,6 +49,7 @@ export const Navbar = memo(() => {
 
   const changeLanguage = (lng: string | undefined) => {
     i18n.changeLanguage(lng);
+    setDropdownOpen(false);
   };
 
   const handleSidebarLinkClick = () => {
