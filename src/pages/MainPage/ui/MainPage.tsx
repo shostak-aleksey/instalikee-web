@@ -195,7 +195,7 @@ function MainPage() {
   </Element>
   <Element name="legal">
     <section className=' mb-64 flex flex-col items-center justify-center text-left'>
-      <h2 className='text-[35px] text-left  mb-12 font-extrabold leading-[60px] tracking-[-0.3px] underline decoration-skip-ink-none font-golos-text text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-[#FC01C6] sm:text-[35px] md:text-[39px] md:leading-[70px] lg:text-[45px] lg:leading-[80px] xl:text-[55px] xl:leading-[72px]'>
+      <h2 className='text-[35px] text-center  mb-12 font-extrabold leading-[60px] tracking-[-0.3px] underline decoration-skip-ink-none font-golos-text text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-[#FC01C6] sm:text-[35px] md:text-[39px] md:leading-[70px] lg:text-[45px] lg:leading-[80px] xl:text-[55px] xl:leading-[72px]'>
         {t('Legal Information and Policy')}
       </h2>
       <p className='w-[90vw] max-w-[1800px] mt-8 mb-4 font-golos-text text-[24px] font-normal leading-[22px] tracking-[-0.3px] decoration-skip-ink-none sm:text-[24px] sm:w-[80vw] md:text-[20px] md:leading-[24px] lg:text-[21px] lg:leading-[25px] xl:text-[22px] xl:leading-[26px]'>
