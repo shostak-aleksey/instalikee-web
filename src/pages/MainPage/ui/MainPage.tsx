@@ -225,16 +225,16 @@ function MainPage() {
       <img src={phone3} className='xl:mt-[-50px] lg:mt-[-230px] sm:m-0 md:m-0 xl:h-[579.95px] xl:w-[75vw] lg:h-[500px] lg:w-[75vw] lg:right-[-78px] md:h-[40vw] md:w-[75vw] sm:right-16 sm:absolute sm:justify-self-center md:right-9 md:absolute md:justify-self-center max-h-[739.95px] max-w-[1688.64px] xl:absolute lg:absolute top-[-70px] left-[35vw] object-contain ml-14 md:mx-auto sm:mx-auto'></img>
       <div className='flex justify-start'>
         <a href="https://support.google.com/googleplay" target="_blank" rel="noopener noreferrer">
-          <img src={'https://s3-alpha-sig.figma.com/img/c534/4b05/5772939794a569e1e5bc72e8dade9753?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NSSDMxehQyFc8j2bEh6GcrFJuH8EDEOivYCv3FG7VrB0gu9ND3m~RtEzNIsocrk3Q-NWb~TBaUo5X8~GJJSVlXEhbwRQjQ0hjZ9ZsnmKy2EBH6aAYh7tlhGtMXM8mRuifHtOwtTjmpJEyylPesj5Pml3TgFd1kQC8GzBo2d~70WfOxexBHzg1FbKc4MZ8OVnQ9-jBAtz2h-WB~kCOGzT05hSxp2qoiHx~Y2qoc7POXmk~E9fFxDqVRAfI9pQ9AVmVKdYoJw5srvfv7XsTm-YQsdXFJFScGHTQ0HZDqE3u~~1-7ltioZ~ySTUt9uMuaC2QKRMcHiYIQrAn9EyBXruug__'}
-            className=' h-[53px] w-[193px] object-contain mt-5 ml-[-10px]' alt="App Store"></img>
+          <img src={'https://www.tulpar-card.kg/wp-content/uploads/2020/06/google.png'}
+            className=' h-[154px] w-[310px] object-contain mt-[-26px] ml-[-10px] translate-x-12' alt="Google Play"></img>
         </a>
         <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer">
-          <img src={'https://s3-alpha-sig.figma.com/img/94b6/dad7/ba21b150dedfcda9eba39caf7f5778c1?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=l6L8S7kDbo4zs2SujZY7QxjY6aWDq~uCfOUw3CZeWOw49-qGwRBUseQNO71zUG7RLF-02INbg8XIYme-ZC5kuNhBV6ansxj4YudpbTyBp5StyEHxc394g2LWvDazcy~k87ekVxIbavEB43faord1TWUxGGqcgivmWiREHYQqEJdlRb3kK1Nscx9suetrKYdlAGtwb5By7VSrfXTUIkg9eAMo33bdYYIFJU40WYlZDRaMom~zgQzrturZxB6anhf4E4Wgfy0dNKGqyUHl9cJWNnf~Dgm416m5VZss5iq~Lo1hz5XUnm4~cbSu45zW-36Vr6rRoVeK5d0OPHVWDDXsog__'}
-            className=' h-[53px] w-[193px] object-contain mt-5 ml-[-10px]' alt="Google Play"></img>
+          <img src={'https://www.freestylelibre.com.au/media/wysiwyg/2022_Icon_Apple_Store.png'}
+            className=' h-[73px] w-[193px] object-contain mt-[12px] ml-[-10px]' alt="App Store"></img>
         </a>
         <a href="https://www.rustore.ru/" target="_blank" rel="noopener noreferrer">
           <img src={rustore}
-            className=' h-[53px] w-[193px] object-contain mt-5 ml-[-10px]' alt="RuStore"></img>
+            className=' h-[55px] w-[193px] object-contain mt-5 ml-[-10px]' alt="RuStore"></img>
         </a>
       </div>
     </div>
@@ -253,16 +253,16 @@ function MainPage() {
     
         <div className='flex items-center justify-center sm:justify-center flex-wrap md:flex-nowrap md:flex-row mt-6 gap-2 mb:justify-start md:ml-[-15px] ml-0'>
           <a href="https://support.google.com/googleplay" target="_blank" rel="noopener noreferrer">
-            <img src={'https://s3-alpha-sig.figma.com/img/c534/4b05/5772939794a569e1e5bc72e8dade9753?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NSSDMxehQyFc8j2bEh6GcrFJuH8EDEOivYCv3FG7VrB0gu9ND3m~RtEzNIsocrk3Q-NWb~TBaUo5X8~GJJSVlXEhbwRQjQ0hjZ9ZsnmKy2EBH6aAYh7tlhGtMXM8mRuifHtOwtTjmpJEyylPesj5Pml3TgFd1kQC8GzBo2d~70WfOxexBHzg1FbKc4MZ8OVnQ9-jBAtz2h-WB~kCOGzT05hSxp2qoiHx~Y2qoc7POXmk~E9fFxDqVRAfI9pQ9AVmVKdYoJw5srvfv7XsTm-YQsdXFJFScGHTQ0HZDqE3u~~1-7ltioZ~ySTUt9uMuaC2QKRMcHiYIQrAn9EyBXruug__'}
-              className=' h-[53px] w-[193px] object-contain mt-5 ml-[-10px]' alt="App Store"></img>
+            <img src={'https://www.tulpar-card.kg/wp-content/uploads/2020/06/google.png'}
+              className=' h-[150px] w-[310px] object-contain mt-[-26px] ml-[-14px] translate-y-[43px]' alt="Google Play"></img>
           </a>
           <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer">
-            <img src={'https://s3-alpha-sig.figma.com/img/94b6/dad7/ba21b150dedfcda9eba39caf7f5778c1?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=l6L8S7kDbo4zs2SujZY7QxjY6aWDq~uCfOUw3CZeWOw49-qGwRBUseQNO71zUG7RLF-02INbg8XIYme-ZC5kuNhBV6ansxj4YudpbTyBp5StyEHxc394g2LWvDazcy~k87ekVxIbavEB43faord1TWUxGGqcgivmWiREHYQqEJdlRb3kK1Nscx9suetrKYdlAGtwb5By7VSrfXTUIkg9eAMo33bdYYIFJU40WYlZDRaMom~zgQzrturZxB6anhf4E4Wgfy0dNKGqyUHl9cJWNnf~Dgm416m5VZss5iq~Lo1hz5XUnm4~cbSu45zW-36Vr6rRoVeK5d0OPHVWDDXsog__'}
-              className=' h-[53px] w-[193px] mt-5 ml-[-10px]' alt="Google Play"></img>
+            <img src={'https://www.freestylelibre.com.au/media/wysiwyg/2022_Icon_Apple_Store.png'}
+              className=' h-[73px] w-[193px] object-contain mt-[12px] ml-[-10px]' alt="App Store"></img>
           </a>
           <a href="https://www.rustore.ru/" target="_blank" rel="noopener noreferrer">
             <img src={rustore}
-              className='h-[53px] w-[193px] ml-[-10px] mt-5 ' alt="RuStore"></img>
+              className=' h-[55px] w-[193px] object-contain mt-5 ml-[-10px]' alt="RuStore"></img>
           </a>
         </div>
       <img src={'https://s3-alpha-sig.figma.com/img/f689/8dc2/988df1d65895d2e93e37e484abcd50e2?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Oa93HYf3DI6YzxuIeYDOmNfOsgrUb9ndKAnIsaHqH94~XG5W58K6W4lAvivqgy7zaYo6DAuvdq-rbjJRCpni4jNOMpxy~gSdrqFXumys49wQckKlzR3UnPQt5-euOm9Le6kvGlwybQyIVwk26U-nhA2YXxHbsa1O8UWAu3M7RCYQuv8i5R~fUclVVK~s0eExpNZ~-l5H~KwY7oo4-ZClTTrkgNaEYiNSyvFBEXstIUEU7ENf7bqXV~fYDqlNW1beASGWVoZa21p~kYaXCuF6PvBDcf6-bTHqIdH1EG8Utz7wALGK1lVFNqHhUn6Xodar8MqfLFX4KDcaITL9UdWW0w__'}
