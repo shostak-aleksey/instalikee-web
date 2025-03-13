@@ -549,6 +549,6 @@ i18n
     },
     },
            
-           lng: "en", fallbackLng: "en", interpolation: { escapeValue: false } });
+           lng: "ru", fallbackLng: "ru", interpolation: { escapeValue: false } });
 
 export default i18n;
