@@ -7,6 +7,7 @@ i18n
     resources: {
       en: {
         translation: {
+           "читать всё": "Read all",
           "INSTA LIKEE": "INSTA LIKEE",
           "Learn More": "Learn More",
           "About Us": "About Us",
@@ -15,7 +16,7 @@ i18n
           "legal Information and Policy": "Legal Information and Policy",
           "Download the app, use it": "Download the app, use it",
           "InstaLikee — leading platform": "InstaLikee — the leading platform for creating and viewing short videos, sharing photos and messages.",
-          "Mission Statement": "Our mission is to inspire users to create and bring joy. InstaLikee's headquarters are located in Russia. InstaLikee — bringing you closer to people and everything you love. We strive to create a safe app and a supportive community for everyone.",
+          "Mission Statement": "Our mission is to inspire users to create and bring joy. InstaLikee's headquarters are located in Россия. InstaLikee — bringing you closer to people and everything you love. We strive to create a safe app and a supportive community for everyone.",
           "Discover New Content": "Find something new. Discover content and users based on your interests. Connect with more people, create engaging content that becomes yours. Grow with us. We put people first and value craftsmanship and simplicity in our work.",
           "Global Creativity": "Our teams inspire creativity around the world, helping over 1 billion people create and share. Join us! Download the InstaLikee logo and other resources for use on your website, storefront, or other marketing materials.",
           "Privacy Policy": "Privacy Policy: We respect your privacy and are committed to protecting your personal data. All data you provide through our service is processed in accordance with applicable data protection laws. We use your data only to provide and improve our services. You have the right to request access to your data, its correction, or deletion at any time.",
@@ -35,6 +36,7 @@ i18n
       },
       ru: {
         translation: {
+           "читать всё": "Читать всё",
           "INSTA LIKEE": "INSTA LIKEE",
           "Learn More": "Узнать больше",
           "About Us": "О нас",
@@ -51,6 +53,7 @@ i18n
           "Copyright": "Авторские права: Все материалы, представленные на нашем сайте, включая текст, изображения и логотипы, защищены авторским правом. Вы не можете использовать, копировать или распространять эти материалы без нашего предварительного письменного согласия. Любое несанкционированное использование может привести к юридическим последствиям.",
           "User Agreement": "Пользовательское соглашение: Мы стремимся обеспечить вам наилучший опыт использования нашего сервиса. Ваша безопасность и удовлетворенность являются нашими приоритетами. Мы постоянно работаем над улучшением функциональности и удобства нашего приложения, чтобы сделать ваше взаимодействие с InstaLikee максимально приятным и продуктивным. Мы ценим ваше мнение и всегда открыты для предложений и обратной связи. Присоединяйтесь к нашему сообществу и наслаждайтесь уникальными возможностями, которые предлагает InstaLikee.",
           "Name": "Имя",
+          "Contact Us": "Связаться с нами",
           "Email": "Электронная почта",
           "Phone": "Телефон",
           "Message": "Сообщение",
@@ -59,16 +62,17 @@ i18n
           "new customers":"Привлекайте новых клиентов с помощью рекламы в InstaLikee. Развивайте компанию, создавайте эффективные креативы и выстраивайте долгосрочные отношения с клиентами — всё это в одном месте."
       }
       },
-  "es": { "translation": { "INSTA LIKEE": "INSTA LIKEE", "Learn More": "Aprender Más", "About Us": "Acerca de Nosotros", "contact": "Contacto", "legal": "legal", "legal Information and Policy": "Información Legal y Política", "Download the app, use it": "Descarga la app, úsala", "InstaLikee — leading platform": "InstaLikee — la plataforma líder para crear y ver videos cortos, compartir fotos y mensajes.", "Mission Statement": "Nuestra misión es inspirar a los usuarios a crear y brindar alegría. La sede de InstaLikee se encuentra en Rusia. InstaLikee — acercándote a las personas y a todo lo que amas. Nos esforzamos por crear una aplicación segura y una comunidad de apoyo para todos.", "Discover New Content": "Encuentra algo nuevo. Descubre contenido y usuarios basados en tus intereses. Conéctate con más personas, crea contenido atractivo que se convierta en tuyo. Crece con nosotros. Priorizamos a las personas y valoramos la artesanía y la simplicidad en nuestro trabajo.", "Global Creativity": "Nuestros equipos inspiran la creatividad en todo el mundo, ayudando a más de mil millones de personas a crear y compartir. ¡Únete a nosotros! Descarga el logotipo de InstaLikee y otros recursos para usar en tu sitio web, tienda u otros materiales de marketing.", "Privacy Policy": "Política de Privacidad: Respetamos tu privacidad y nos comprometemos a proteger tus datos personales. Todos los datos que proporciones a través de nuestro servicio se procesan de acuerdo con las leyes de protección de datos aplicables. Utilizamos tus datos solo para proporcionar y mejorar nuestros servicios. Tienes derecho a solicitar acceso a tus datos, su corrección o eliminación en cualquier momento.", "Terms of Use": "Términos de Uso: Al utilizar nuestro servicio, aceptas cumplir con todas las leyes y regulaciones aplicables. Aceptas no utilizar nuestro servicio para fines ilegales o de manera que pueda dañar nuestro servicio u otros usuarios. Nos reservamos el derecho de suspender o cancelar tu acceso a nuestro servicio si violas estos términos.", "Copyright": "Derechos de Autor: Todos los materiales presentados en nuestro sitio, incluidos textos, imágenes y logotipos, están protegidos por derechos de autor. No puedes utilizar, copiar o distribuir estos materiales sin nuestro consentimiento previo por escrito. Cualquier uso no autorizado puede resultar en consecuencias legales.", "User Agreement": "Acuerdo de Usuario: Nos esforzamos por brindarte la mejor experiencia al utilizar nuestro servicio. Tu seguridad y satisfacción son nuestras prioridades. Trabajamos constantemente para mejorar la funcionalidad y la conveniencia de nuestra aplicación para que tu interacción con InstaLikee sea lo más agradable y productiva posible. Valoramos tu opinión y siempre estamos abiertos a sugerencias y comentarios. Únete a nuestra comunidad y disfruta de las oportunidades únicas que ofrece InstaLikee.", "Name": "Nombre", "Legal Information and Policy": "Información Legal y Política", "Contact Us": "Contáctanos", "Email": "Correo Electrónico", "Phone": "Teléfono", "Message": "Mensaje", "Send": "Enviar", "Россия": "Rusia", "new customers": "Atrae nuevos clientes con la publicidad de InstaLikee. Haz crecer tu negocio, crea creatividades efectivas y construye relaciones a largo plazo con tus clientes, todo en un solo lugar." }
+  "es": { "translation": { "читать всё": "Leer todo", "INSTA LIKEE": "INSTA LIKEE", "Learn More": "Aprender Más", "About Us": "Acerca de Nosotros", "contact": "Contacto", "legal": "legal", "legal Information and Policy": "Información Legal y Política", "Download the app, use it": "Descarga la app, úsala", "InstaLikee — leading platform": "InstaLikee — la plataforma líder para crear y ver videos cortos, compartir fotos y mensajes.", "Mission Statement": "Nuestra misión es inspirar a los usuarios a crear y brindar alegría. La sede de InstaLikee se encuentra en Rusia. InstaLikee — acercándote a las personas y a todo lo que amas. Nos esforzamos por crear una aplicación segura y una comunidad de apoyo para todos.", "Discover New Content": "Encuentra algo nuevo. Descubre contenido y usuarios basados en tus intereses. Conéctate con más personas, crea contenido atractivo que se convierta en tuyo. Crece con nosotros. Priorizamos a las personas y valoramos la artesanía y la simplicidad en nuestro trabajo.", "Global Creativity": "Nuestros equipos inspiran la creatividad en todo el mundo, ayudando a más de mil millones de personas a crear y compartir. ¡Únete a nosotros! Descarga el logotipo de InstaLikee y otros recursos para usar en tu sitio web, tienda u otros materiales de marketing.", "Privacy Policy": "Política de Privacidad: Respetamos tu privacidad y nos comprometemos a proteger tus datos personales. Todos los datos que proporciones a través de nuestro servicio se procesan de acuerdo con las leyes de protección de datos aplicables. Utilizamos tus datos solo para proporcionar y mejorar nuestros servicios. Tienes derecho a solicitar acceso a tus datos, su corrección o eliminación en cualquier momento.", "Terms of Use": "Términos de Uso: Al utilizar nuestro servicio, aceptas cumplir con todas las leyes y regulaciones aplicables. Aceptas no utilizar nuestro servicio para fines ilegales o de manera que pueda dañar nuestro servicio u otros usuarios. Nos reservamos el derecho de suspender o cancelar tu acceso a nuestro servicio si violas estos términos.", "Copyright": "Derechos de Autor: Todos los materiales presentados en nuestro sitio, incluidos textos, imágenes y logotipos, están protegidos por derechos de autor. No puedes utilizar, copiar o distribuir estos materiales sin nuestro consentimiento previo por escrito. Cualquier uso no autorizado puede resultar en consecuencias legales.", "User Agreement": "Acuerdo de Usuario: Nos esforzamos por brindarte la mejor experiencia al utilizar nuestro servicio. Tu seguridad y satisfacción son nuestras prioridades. Trabajamos constantemente para mejorar la funcionalidad y la conveniencia de nuestra aplicación para que tu interacción con InstaLikee sea lo más agradable y productiva posible. Valoramos tu opinión y siempre estamos abiertos a sugerencias y comentarios. Únete a nuestra comunidad y disfruta de las oportunidades únicas que ofrece InstaLikee.", "Name": "Nombre", "Legal Information and Policy": "Información Legal y Política", "Contact Us": "Contáctanos", "Email": "Correo Electrónico", "Phone": "Teléfono", "Message": "Mensaje", "Send": "Enviar", "Россия": "Rusia", "new customers": "Atrae nuevos clientes con la publicidad de InstaLikee. Haz crecer tu negocio, crea creatividades efectivas y construye relaciones a largo plazo con tus clientes, todo en un solo lugar." }
   },
-  "fr": { "translation": { "INSTA LIKEE": "INSTA LIKEE", "Learn More": "En savoir plus", "About Us": "À propos de nous", "contact": "Contact", "legal": "légal", "legal Information and Policy": "Informations légales et politique", "Download the app, use it": "Téléchargez l'application, utilisez-la", "InstaLikee — leading platform": "InstaLikee — la plateforme leader pour créer et visionner des vidéos courtes, partager des photos et des messages.", "Mission Statement": "Notre mission est d'inspirer les utilisateurs à créer et apporter de la joie. InstaLikee est basé en Russie. InstaLikee — vous rapprocher des gens et de tout ce que vous aimez. Nous nous efforçons de créer une application sécurisée et une communauté solidaire pour tous.", "Discover New Content": "Découvrez quelque chose de nouveau. Découvrez du contenu et des utilisateurs en fonction de vos intérêts. Connectez-vous avec plus de gens, créez un contenu engageant qui devient le vôtre. Grandissez avec nous. Nous mettons l'accent sur les gens et apprécions le savoir-faire et la simplicité dans notre travail.", "Global Creativity": "Nos équipes inspirent la créativité dans le monde entier, aidant plus d'un milliard de personnes à créer et partager. Rejoignez-nous ! Téléchargez le logo InstaLikee et d'autres ressources à utiliser sur votre site web, votre vitrine ou vos autres supports marketing.", "Privacy Policy": "Politique de confidentialité : Nous respectons votre vie privée et nous engageons à protéger vos données personnelles. Toutes les données que vous fournissez via notre service sont traitées conformément aux lois de protection des données applicables. Nous utilisons vos données uniquement pour fournir et améliorer nos services. Vous avez le droit de demander l'accès à vos données, leur correction ou leur suppression à tout moment.", "Terms of Use": "Conditions d'utilisation : En utilisant notre service, vous acceptez de respecter toutes les lois et réglementations applicables. Vous acceptez de ne pas utiliser notre service à des fins illégales ou de manière à nuire à notre service ou à d'autres utilisateurs. Nous nous réservons le droit de suspendre ou de résilier votre accès à notre service si vous violez ces conditions.", "Copyright": "Droits d'auteur : Tous les matériaux présentés sur notre site, y compris les textes, images et logos, sont protégés par des droits d'auteur. Vous ne pouvez pas utiliser, copier ou distribuer ces matériaux sans notre consentement préalable écrit. Toute utilisation non autorisée peut entraîner des conséquences juridiques.", "User Agreement": "Accord d'utilisateur : Nous nous efforçons de vous offrir la meilleure expérience en utilisant notre service. Votre sécurité et votre satisfaction sont nos priorités. Nous travaillons constamment à améliorer la fonctionnalité et la commodité de notre application afin que votre interaction avec InstaLikee soit aussi agréable et productive que possible. Nous apprécions votre opinion et sommes toujours ouverts aux suggestions et aux retours. Rejoignez notre communauté et profitez des opportunités uniques offertes par InstaLikee.", "Name": "Nom", "Legal Information and Policy": "Informations légales et politique", "Contact Us": "Contactez-nous", "Email": "E-mail", "Phone": "Téléphone", "Message": "Message", "Send": "Envoyer", "Россия": "Russie", "new customers": "Attirez de nouveaux clients grâce à la publicité InstaLikee. Développez votre entreprise, créez des créations efficaces et établissez des relations à long terme avec vos clients, tout en un seul endroit." }
+  "fr": { "translation": { "читать всё": "Tout lire", "INSTA LIKEE": "INSTA LIKEE", "Learn More": "En savoir plus", "About Us": "À propos de nous", "contact": "Contact", "legal": "légal", "legal Information and Policy": "Informations légales et politique", "Download the app, use it": "Téléchargez l'application, utilisez-la", "InstaLikee — leading platform": "InstaLikee — la plateforme leader pour créer et visionner des vidéos courtes, partager des photos et des messages.", "Mission Statement": "Notre mission est d'inspirer les utilisateurs à créer et apporter de la joie. InstaLikee est basé en Russie. InstaLikee — vous rapprocher des gens et de tout ce que vous aimez. Nous nous efforçons de créer une application sécurisée et une communauté solidaire pour tous.", "Discover New Content": "Découvrez quelque chose de nouveau. Découvrez du contenu et des utilisateurs en fonction de vos intérêts. Connectez-vous avec plus de gens, créez un contenu engageant qui devient le vôtre. Grandissez avec nous. Nous mettons l'accent sur les gens et apprécions le savoir-faire et la simplicité dans notre travail.", "Global Creativity": "Nos équipes inspirent la créativité dans le monde entier, aidant plus d'un milliard de personnes à créer et partager. Rejoignez-nous ! Téléchargez le logo InstaLikee et d'autres ressources à utiliser sur votre site web, votre vitrine ou vos autres supports marketing.", "Privacy Policy": "Politique de confidentialité : Nous respectons votre vie privée et nous engageons à protéger vos données personnelles. Toutes les données que vous fournissez via notre service sont traitées conformément aux lois de protection des données applicables. Nous utilisons vos données uniquement pour fournir et améliorer nos services. Vous avez le droit de demander l'accès à vos données, leur correction ou leur suppression à tout moment.", "Terms of Use": "Conditions d'utilisation : En utilisant notre service, vous acceptez de respecter toutes les lois et réglementations applicables. Vous acceptez de ne pas utiliser notre service à des fins illégales ou de manière à nuire à notre service ou à d'autres utilisateurs. Nous nous réservons le droit de suspendre ou de résilier votre accès à notre service si vous violez ces conditions.", "Copyright": "Droits d'auteur : Tous les matériaux présentés sur notre site, y compris les textes, images et logos, sont protégés par des droits d'auteur. Vous ne pouvez pas utiliser, copier ou distribuer ces matériaux sans notre consentement préalable écrit. Toute utilisation non autorisée peut entraîner des conséquences juridiques.", "User Agreement": "Accord d'utilisateur : Nous nous efforçons de vous offrir la meilleure expérience en utilisant notre service. Votre sécurité et votre satisfaction sont nos priorités. Nous travaillons constamment à améliorer la fonctionnalité et la commodité de notre application afin que votre interaction avec InstaLikee soit aussi agréable et productive que possible. Nous apprécions votre opinion et sommes toujours ouverts aux suggestions et aux retours. Rejoignez notre communauté et profitez des opportunités uniques offertes par InstaLikee.", "Name": "Nom", "Legal Information and Policy": "Informations légales et politique", "Contact Us": "Contactez-nous", "Email": "E-mail", "Phone": "Téléphone", "Message": "Message", "Send": "Envoyer", "Россия": "Russie", "new customers": "Attirez de nouveaux clients grâce à la publicité InstaLikee. Développez votre entreprise, créez des créations efficaces et établissez des relations à long terme avec vos clients, tout en un seul endroit." }
   },
-  "de": { "translation": { "INSTA LIKEE": "INSTA LIKEE", "Learn More": "Erfahren Sie mehr", "About Us": "Über uns", "contact": "Kontakt", "legal": "rechtlich", "legal Information and Policy": "Rechtliche Informationen und Richtlinie", "Download the app, use it": "Laden Sie die App herunter, verwenden Sie sie", "InstaLikee — leading platform": "InstaLikee — die führende Plattform zum Erstellen und Ansehen von Kurzvideos, Teilen von Fotos und Nachrichten.", "Mission Statement": "Unsere Mission ist es, die Nutzer zu inspirieren, zu schaffen und Freude zu bringen. InstaLikee hat seinen Sitz in Russland. InstaLikee — bringt Sie näher zu den Menschen und allem, was Sie lieben. Wir bemühen uns, eine sichere App und eine unterstützende Gemeinschaft für alle zu schaffen.", "Discover New Content": "Entdecken Sie etwas Neues. Entdecken Sie Inhalte und Nutzer basierend auf Ihren Interessen. Verbinden Sie sich mit mehr Menschen, erstellen Sie ansprechende Inhalte, die Ihnen gehören. Wachsen Sie mit uns. Wir stellen die Menschen an erste Stelle und schätzen Handwerkskunst und Einfachheit in unserer Arbeit.", "Global Creativity": "Unsere Teams inspirieren Kreativität weltweit und helfen über eine Milliarde Menschen beim Erstellen und Teilen. Schließen Sie sich uns an! Laden Sie das InstaLikee-Logo und andere Ressourcen herunter, um sie auf Ihrer Website, in Ihrem Schaufenster oder auf anderen Marketingmaterialien zu verwenden.", "Privacy Policy": "Datenschutzrichtlinie: Wir respektieren Ihre Privatsphäre und verpflichten uns, Ihre persönlichen Daten zu schützen. Alle Daten, die Sie über unseren Dienst bereitstellen, werden gemäß den geltenden Datenschutzgesetzen verarbeitet. Wir verwenden Ihre Daten nur, um unsere Dienste bereitzustellen und zu verbessern. Sie haben das Recht, jederzeit Zugang zu Ihren Daten zu verlangen, diese zu korrigieren oder zu löschen.", "Terms of Use": "Nutzungsbedingungen: Durch die Nutzung unseres Dienstes erklären Sie sich mit der Einhaltung aller geltenden Gesetze und Vorschriften einverstanden. Sie erklären sich damit einverstanden, unseren Dienst nicht für illegale Zwecke zu verwenden oder ihn auf eine Weise zu nutzen, die unserem Dienst oder anderen Nutzern schadet. Wir behalten uns das Recht vor, Ihren Zugang zu unserem Dienst zu sperren oder zu kündigen, wenn Sie gegen diese Bedingungen verstoßen.", "Copyright": "Urheberrecht: Alle auf unserer Website präsentierten Materialien, einschließlich Texte, Bilder und Logos, sind urheberrechtlich geschützt. Sie dürfen diese Materialien nicht ohne unsere vorherige schriftliche Zustimmung verwenden, kopieren oder verbreiten. Jede unbefugte Nutzung kann rechtliche Konsequenzen nach sich ziehen.", "User Agreement": "Nutzervereinbarung: Wir bemühen uns, Ihnen die beste Erfahrung bei der Nutzung unseres Dienstes zu bieten. Ihre Sicherheit und Zufriedenheit haben für uns höchste Priorität. Wir arbeiten ständig daran, die Funktionalität und Benutzerfreundlichkeit unserer App zu verbessern, damit Ihre Interaktion mit InstaLikee so angenehm und produktiv wie möglich ist. Wir schätzen Ihre Meinung und sind immer offen für Vorschläge und Feedback. Treten Sie unserer Gemeinschaft bei und genießen Sie die einzigartigen Möglichkeiten, die InstaLikee bietet.", "Name": "Name", "Legal Information and Policy": "Rechtliche Informationen und Richtlinie", "Contact Us": "Kontaktieren Sie uns", "Email": "E-Mail", "Phone": "Telefon", "Message": "Nachricht", "Send": "Senden", "Россия": "Russland", "new customers": "Gewinnen Sie neue Kunden mit InstaLikee-Werbung. Entwickeln Sie Ihr Geschäft, erstellen Sie effektive Kreativarbeiten und bauen Sie langfristige Beziehungen zu Ihren Kunden auf — alles an einem Ort." }
+  "de": { "translation": { "читать всё": "Alles lesen", "INSTA LIKEE": "INSTA LIKEE", "Learn More": "Erfahren Sie mehr", "About Us": "Über uns", "contact": "Kontakt", "legal": "rechtlich", "legal Information and Policy": "Rechtliche Informationen und Richtlinie", "Download the app, use it": "Laden Sie die App herunter, verwenden Sie sie", "InstaLikee — leading platform": "InstaLikee — die führende Plattform zum Erstellen und Ansehen von Kurzvideos, Teilen von Fotos und Nachrichten.", "Mission Statement": "Unsere Mission ist es, die Nutzer zu inspirieren, zu schaffen und Freude zu bringen. InstaLikee hat seinen Sitz in Russland. InstaLikee — bringt Sie näher zu den Menschen und allem, was Sie lieben. Wir bemühen uns, eine sichere App und eine unterstützende Gemeinschaft für alle zu schaffen.", "Discover New Content": "Entdecken Sie etwas Neues. Entdecken Sie Inhalte und Nutzer basierend auf Ihren Interessen. Verbinden Sie sich mit mehr Menschen, erstellen Sie ansprechende Inhalte, die Ihnen gehören. Wachsen Sie mit uns. Wir stellen die Menschen an erste Stelle und schätzen Handwerkskunst und Einfachheit in unserer Arbeit.", "Global Creativity": "Unsere Teams inspirieren Kreativität weltweit und helfen über eine Milliarde Menschen beim Erstellen und Teilen. Schließen Sie sich uns an! Laden Sie das InstaLikee-Logo und andere Ressourcen herunter, um sie auf Ihrer Website, in Ihrem Schaufenster oder auf anderen Marketingmaterialien zu verwenden.", "Privacy Policy": "Datenschutzrichtlinie: Wir respektieren Ihre Privatsphäre und verpflichten uns, Ihre persönlichen Daten zu schützen. Alle Daten, die Sie über unseren Dienst bereitstellen, werden gemäß den geltenden Datenschutzgesetzen verarbeitet. Wir verwenden Ihre Daten nur, um unsere Dienste bereitzustellen und zu verbessern. Sie haben das Recht, jederzeit Zugang zu Ihren Daten zu verlangen, diese zu korrigieren oder zu löschen.", "Terms of Use": "Nutzungsbedingungen: Durch die Nutzung unseres Dienstes erklären Sie sich mit der Einhaltung aller geltenden Gesetze und Vorschriften einverstanden. Sie erklären sich damit einverstanden, unseren Dienst nicht für illegale Zwecke zu verwenden oder ihn auf eine Weise zu nutzen, die unserem Dienst oder anderen Nutzern schadet. Wir behalten uns das Recht vor, Ihren Zugang zu unserem Dienst zu sperren oder zu kündigen, wenn Sie gegen diese Bedingungen verstoßen.", "Copyright": "Urheberrecht: Alle auf unserer Website präsentierten Materialien, einschließlich Texte, Bilder und Logos, sind urheberrechtlich geschützt. Sie dürfen diese Materialien nicht ohne unsere vorherige schriftliche Zustimmung verwenden, kopieren oder verbreiten. Jede unbefugte Nutzung kann rechtliche Konsequenzen nach sich ziehen.", "User Agreement": "Nutzervereinbarung: Wir bemühen uns, Ihnen die beste Erfahrung bei der Nutzung unseres Dienstes zu bieten. Ihre Sicherheit und Zufriedenheit haben für uns höchste Priorität. Wir arbeiten ständig daran, die Funktionalität und Benutzerfreundlichkeit unserer App zu verbessern, damit Ihre Interaktion mit InstaLikee so angenehm und produktiv wie möglich ist. Wir schätzen Ihre Meinung und sind immer offen für Vorschläge und Feedback. Treten Sie unserer Gemeinschaft bei und genießen Sie die einzigartigen Möglichkeiten, die InstaLikee bietet.", "Name": "Name", "Legal Information and Policy": "Rechtliche Informationen und Richtlinie", "Contact Us": "Kontaktieren Sie uns", "Email": "E-Mail", "Phone": "Telefon", "Message": "Nachricht", "Send": "Senden", "Россия": "Russland", "new customers": "Gewinnen Sie neue Kunden mit InstaLikee-Werbung. Entwickeln Sie Ihr Geschäft, erstellen Sie effektive Kreativarbeiten und bauen Sie langfristige Beziehungen zu Ihren Kunden auf — alles an einem Ort." }
   },
-  "it": { "translation": { "INSTA LIKEE": "INSTA LIKEE", "Learn More": "Scopri di più", "About Us": "Chi siamo", "contact": "Contatto", "legal": "legale", "legal Information and Policy": "Informazioni legali e politiche", "Download the app, use it": "Scarica l'app, usala", "InstaLikee — leading platform": "InstaLikee — la piattaforma principale per creare e guardare video brevi, condividere foto e messaggi.", "Mission Statement": "La nostra missione è ispirare gli utenti a creare e portare gioia. InstaLikee ha sede in Russia. InstaLikee — avvicinarti alle persone e a tutto ciò che ami. Ci impegniamo a creare un'app sicura e una comunità di supporto per tutti.", "Discover New Content": "Scopri qualcosa di nuovo. Scopri contenuti e utenti in base ai tuoi interessi. Connettiti con più persone, crea contenuti coinvolgenti che ti appartengono. Cresci con noi. Mettiamo le persone al primo posto e apprezziamo l'artigianato e la semplicità nel nostro lavoro.", "Global Creativity": "I nostri team ispirano la creatività in tutto il mondo, aiutando oltre un miliardo di persone a creare e condividere. Unisciti a noi! Scarica il logo di InstaLikee e altre risorse da usare sul tuo sito web, vetrina o altri materiali di marketing.", "Privacy Policy": "Informativa sulla privacy: Rispettiamo la tua privacy e ci impegniamo a proteggere i tuoi dati personali. Tutti i dati che fornisci tramite il nostro servizio sono trattati in conformità con le leggi sulla protezione dei dati applicabili. Usiamo i tuoi dati solo per fornire e migliorare i nostri servizi. Hai il diritto di richiedere l'accesso ai tuoi dati, la loro correzione o la cancellazione in qualsiasi momento.", "Terms of Use": "Termini di utilizzo: Utilizzando il nostro servizio, accetti di rispettare tutte le leggi e regolamenti applicabili. Accetti di non utilizzare il nostro servizio per scopi illegali o in modo da danneggiare il nostro servizio o altri utenti. Ci riserviamo il diritto di sospendere o terminare il tuo accesso al nostro servizio se violi questi termini.", "Copyright": "Copyright: Tutti i materiali presentati sul nostro sito, inclusi testi, immagini e loghi, sono protetti da diritti d'autore. Non puoi utilizzare, copiare o distribuire questi materiali senza il nostro consenso scritto. Qualsiasi utilizzo non autorizzato potrebbe comportare conseguenze legali.", "User Agreement": "Accordo dell'utente: Ci impegniamo a offrirti la migliore esperienza nell'utilizzo del nostro servizio. La tua sicurezza e soddisfazione sono le nostre priorità. Lavoriamo costantemente per migliorare la funzionalità e la comodità della nostra app affinché la tua interazione con InstaLikee sia il più piacevole e produttiva possibile. Apprezziamo la tua opinione e siamo sempre aperti a suggerimenti e feedback. Unisciti alla nostra comunità e approfitta delle opportunità uniche offerte da InstaLikee.", "Name": "Nome", "Legal Information and Policy": "Informazioni legali e politiche", "Contact Us": "Contattaci", "Email": "Email", "Phone": "Telefono", "Message": "Messaggio", "Send": "Invia", "Россия": "Russia", "new customers": "Attira nuovi clienti con la pubblicità di InstaLikee. Fai crescere la tua attività, crea contenuti efficaci e costruisci relazioni a lungo termine con i tuoi clienti, tutto in un'unica piattaforma." }
+  "it": { "translation": { "читать всё": "Leggi tutto", "INSTA LIKEE": "INSTA LIKEE", "Learn More": "Scopri di più", "About Us": "Chi siamo", "contact": "Contatto", "legal": "legale", "legal Information and Policy": "Informazioni legali e politiche", "Download the app, use it": "Scarica l'app, usala", "InstaLikee — leading platform": "InstaLikee — la piattaforma principale per creare e guardare video brevi, condividere foto e messaggi.", "Mission Statement": "La nostra missione è ispirare gli utenti a creare e portare gioia. InstaLikee ha sede in Россия. InstaLikee — avvicinarti alle persone e a tutto ciò che ami. Ci impegniamo a creare un'app sicura e una comunità di supporto per tutti.", "Discover New Content": "Scopri qualcosa di nuovo. Scopri contenuti e utenti in base ai tuoi interessi. Connettiti con più persone, crea contenuti coinvolgenti che ti appartengono. Cresci con noi. Mettiamo le persone al primo posto e apprezziamo l'artigianato e la semplicità nel nostro lavoro.", "Global Creativity": "I nostri team ispirano la creatività in tutto il mondo, aiutando oltre un miliardo di persone a creare e condividere. Unisciti a noi! Scarica il logo di InstaLikee e altre risorse da usare sul tuo sito web, vetrina o altri materiali di marketing.", "Privacy Policy": "Informativa sulla privacy: Rispettiamo la tua privacy e ci impegniamo a proteggere i tuoi dati personali. Tutti i dati che fornisci tramite il nostro servizio sono trattati in conformità con le leggi sulla protezione dei dati applicabili. Usiamo i tuoi dati solo per fornire e migliorare i nostri servizi. Hai il diritto di richiedere l'accesso ai tuoi dati, la loro correzione o la cancellazione in qualsiasi momento.", "Terms of Use": "Termini di utilizzo: Utilizzando il nostro servizio, accetti di rispettare tutte le leggi e regolamenti applicabili. Accetti di non utilizzare il nostro servizio per scopi illegali o in modo da danneggiare il nostro servizio o altri utenti. Ci riserviamo il diritto di sospendere o terminare il tuo accesso al nostro servizio se violi questi termini.", "Copyright": "Copyright: Tutti i materiali presentati sul nostro sito, inclusi testi, immagini e loghi, sono protetti da diritti d'autore. Non puoi utilizzare, copiare o distribuire questi materiali senza il nostro consenso scritto. Qualsiasi utilizzo non autorizzato potrebbe comportare conseguenze legali.", "User Agreement": "Accordo dell'utente: Ci impegniamo a offrirti la migliore esperienza nell'utilizzo del nostro servizio. La tua sicurezza e soddisfazione sono le nostre priorità. Lavoriamo costantemente per migliorare la funzionalità e la comodità della nostra app affinché la tua interazione con InstaLikee sia il più piacevole e produttiva possibile. Apprezziamo la tua opinione e siamo sempre aperti a suggerimenti e feedback. Unisciti alla nostra comunità e approfitta delle opportunità uniche offerte da InstaLikee.", "Name": "Nome", "Legal Information and Policy": "Informazioni legali e politiche", "Contact Us": "Contattaci", "Email": "Email", "Phone": "Telefono", "Message": "Messaggio", "Send": "Invia", "Россия": "Russia", "new customers": "Attira nuovi clienti con la pubblicità di InstaLikee. Fai crescere la tua attività, crea contenuti efficaci e costruisci relazioni a lungo termine con i tuoi clienti, tutto in un'unica piattaforma." }
   },
   "pt": {
     "translation": {
+        "читать всё": "Ler tudo",
       "INSTA LIKEE": "INSTA LIKEE",
       "Learn More": "Saiba Mais",
       "About Us": "Sobre Nós",
@@ -91,12 +95,13 @@ i18n
       "Phone": "Telefone",
       "Message": "Mensagem",
       "Send": "Enviar",
-      "Russia": "Rússia",
+      "Россия": "Rússia",
       "new customers": "Atraia novos clientes com os anúncios do InstaLikee. Faça seu negócio crescer, crie conteúdo criativo e eficaz e construa relacionamentos duradouros com seus clientes — tudo em um só lugar."
     }
   },
       "ar": {
         "translation": {
+           "читать всё": "اقرأ الكل",
           "INSTA LIKEE": "إنستا لايكي",
           "Learn More": "مزيد من المعلومات",
           "About Us": "معلومات عنا",
@@ -125,6 +130,7 @@ i18n
       },
       "hi": {
         "translation": {
+          "читать всё": "सभी पढ़ें",
           "INSTA LIKEE": "इंस्टा लाइकी",
           "Learn More": "अधिक जानें",
           "About Us": "हमारे बारे में",
@@ -153,6 +159,7 @@ i18n
       },
       "bn": {
         "translation": {
+          "читать всё": "সব পড়ুন",
           "INSTA LIKEE": "ইনস্টা লাইকী",
           "Learn More": "আরও জানুন",
           "About Us": "আমাদের সম্পর্কে",
@@ -181,6 +188,7 @@ i18n
       },
       "pa": {
         "translation": {
+          "читать всё": "ਸਭ ਪੜ੍ਹੋ",
           "INSTA LIKEE": "ਇੰਸਟਾ ਲਾਈਕੀ",
           "Learn More": "ਹੋਰ ਜਾਣੋ",
           "About Us": "ਸਾਡੇ ਬਾਰੇ",
@@ -209,6 +217,7 @@ i18n
       },
       "ur": {
         "translation": {
+          "читать всё": "すべて読む",
           "INSTA LIKEE": "انسٹاگرام لائکی",
           "Learn More": "مزید جانیں",
           "About Us": "ہمارے بارے میں",
@@ -239,6 +248,7 @@ i18n
     },
     "id": {
   "translation": {
+    "читать всё": "Baca semua",
     "INSTA LIKEE": "INSTA LIKEE",
     "Learn More": "Pelajari Lebih Lanjut",
     "About Us": "Tentang Kami",
@@ -267,6 +277,7 @@ i18n
 },
 "tr": {
   "translation": {
+    "читать всё": "Hepsini oku",
     "INSTA LIKEE": "INSTA LIKEE",
     "Learn More": "Daha Fazla Bilgi",
     "About Us": "Hakkımızda",
@@ -295,6 +306,7 @@ i18n
 },
 "vi": {
   "translation": {
+    "читать всё": "Đọc tất cả",
     "INSTA LIKEE": "INSTA LIKEE",
     "Learn More": "Tìm hiểu thêm",
     "About Us": "Giới thiệu về chúng tôi",
@@ -323,6 +335,7 @@ i18n
 },
 "th": {
   "translation": {
+    "читать всё": "อ่านทั้งหมด",
     "INSTA LIKEE": "INSTA LIKEE",
     "Learn More": "เรียนรู้เพิ่มเติม",
     "About Us": "เกี่ยวกับเรา",
@@ -351,6 +364,7 @@ i18n
 },
 "fa": {
   "translation": {
+    "читать всё": "همه را بخوانید",
     "INSTA LIKEE": "INSTA LIKEE",
     "Learn More": "بیشتر بدانید",
     "About Us": "درباره ما",
@@ -379,6 +393,7 @@ i18n
    },
    "pl": {
   "translation": {
+    "читать всё": "Czytaj wszystko",
     "INSTA LIKEE": "INSTA LIKEE",
     "Learn More": "Dowiedz się więcej",
     "About Us": "O nas",
@@ -401,12 +416,13 @@ i18n
     "Phone": "Telefon",
     "Message": "Wiadomość",
     "Send": "Wyślij",
-    "Russia": "Rosja",
+    "Россия": "Rosja",
     "new customers": "Pozyskuj nowych klientów za pomocą reklam InstaLikee. Rozwijaj swój biznes, twórz kreatywne i efektywne treści, buduj długoterminowe relacje z klientami — wszystko w jednym miejscu."
   }
 },
 "nl": {
   "translation": {
+    "читать всё": "Alles lezen",
     "INSTA LIKEE": "INSTA LIKEE",
     "Learn More": "Meer informatie",
     "About Us": "Over ons",
@@ -429,12 +445,13 @@ i18n
     "Phone": "Telefoon",
     "Message": "Bericht",
     "Send": "Verstuur",
-    "Russia": "Rusland",
+    "Россия": "Rusland",
     "new customers": "Trek nieuwe klanten aan via InstaLikee-advertenties. Breid je bedrijf uit, maak creatieve en effectieve inhoud, en bouw langdurige relaties met je klanten — allemaal op één plek."
   }
 },
 "uk": {
   "translation": {
+     "читать всё": "Читати все",
     "INSTA LIKEE": "INSTA LIKEE",
     "Learn More": "Дізнатися більше",
     "About Us": "Про нас",
@@ -457,12 +474,13 @@ i18n
     "Phone": "Телефон",
     "Message": "Повідомлення",
     "Send": "Надіслати",
-    "Russia": "Росія",
+    "Россия": "Росія",
     "new customers": "Залучайте нових клієнтів за допомогою реклами InstaLikee. Розвивайте свій бізнес, створюйте креативний і ефективний контент, будуйте довгострокові стосунки з клієнтами — все в одному місці."
   }
 },
 "ro": {
   "translation": {
+    "читать всё": "Citește tot",
     "INSTA LIKEE": "INSTA LIKEE",
     "Learn More": "Aflați mai multe",
     "About Us": "Despre noi",
@@ -485,12 +503,13 @@ i18n
     "Phone": "Telefon",
     "Message": "Mesaj",
     "Send": "Trimite",
-    "Russia": "Rusia",
+    "Россия": "Rusia",
     "new customers": "Atrage noi clienți prin publicitatea InstaLikee. Dezvoltă-ți afacerea, creează conținut creativ și eficient și construiește relații pe termen lung cu clienții tăi — toate într-un singur loc."
   }
 },
 "el": {
   "translation": {
+    "читать всё": "Διαβάστε όλα",
     "INSTA LIKEE": "INSTA LIKEE",
     "Learn More": "Μάθετε Περισσότερα",
     "About Us": "Σχετικά με εμάς",
@@ -513,12 +532,13 @@ i18n
     "Phone": "Τηλέφωνο",
     "Message": "Μήνυμα",
     "Send": "Αποστολή",
-    "Russia": "Ρωσία",
+    "Россия": "Ρωσία",
     "new customers": "Αποκτήστε νέους πελάτες μέσω διαφημίσεων InstaLikee. Αναπτύξτε την επιχείρησή σας, δημιουργήστε δημιουργικό και αποτελεσματικό περιεχόμενο, και χτίστε μακροχρόνιες σχέσεις με τους πελάτες σας — όλα σε ένα μέρος."
   }
 },
   "ko": {
     "translation": {
+      "читать всё": "모두 읽기",
       "INSTA LIKEE": "INSTA LIKEE",
       "Learn More": "자세히 알아보기",
       "About Us": "회사 소개",
@@ -541,11 +561,11 @@ i18n
       "Phone": "전화",
       "Message": "메시지",
       "Send": "보내기",
-      "Russia": "러시아",
+      "Россия": "러시아",
       "new customers": "InstaLikee 광고를 통해 새로운 고객을 유치하세요. 비즈니스를 성장시키고 창의적이고 효과적인 콘텐츠를 제작하며 고객과의 장기적인 관계를 구축하세요 — 모두 한 곳에서."
     }
   },
-      "zh": { "translation": { "INSTA LIKEE": "INSTA LIKEE", "Learn More": "了解更多", "About Us": "关于我们", "contact": "联系我们", "legal": "法律", "legal Information and Policy": "法律信息和政策", "Download the app, use it": "下载应用并使用", "InstaLikee — leading platform": "InstaLikee — 领先的平台，创建和观看短视频，分享照片和消息。", "Mission Statement": "我们的使命是鼓励用户创造和带来欢乐。InstaLikee总部位于俄罗斯。InstaLikee — 让你更接近人们和你所热爱的事物。我们努力创建一个安全的应用和一个支持每个人的社区。", "Discover New Content": "发现新内容。根据你的兴趣，发现内容和用户。与更多的人连接，创建有趣的内容并让它属于你。和我们一起成长。我们把人放在第一位，并在工作中注重工艺和简洁。", "Global Creativity": "我们的团队在全球范围内激发创造力，帮助超过十亿人创造和分享。加入我们！下载InstaLikee的标志和其他资源，用于你的网页、商店或其他营销材料。", "Privacy Policy": "隐私政策：我们尊重你的隐私并致力于保护你的个人数据。你通过我们的服务提供的所有数据都将按照适用的数据保护法律进行处理。我们仅使用你的数据来提供和改善我们的服务。你有权随时请求访问、修正或删除你的数据。", "Terms of Use": "使用条款：使用我们的服务即表示你同意遵守所有适用的法律法规。你同意不将我们的服务用于非法目的或以可能损害我们服务或其他用户的方式使用。我们保留在你违反这些条款时暂停或终止你访问我们服务的权利。", "Copyright": "版权：我们网站上的所有材料，包括文本、图像和徽标，都受版权保护。未经我们事先书面同意，你不得使用、复制或分发这些材料。任何未经授权的使用可能会导致法律后果。", "User Agreement": "用户协议：我们致力于为你提供最好的使用体验。你的安全和满意度是我们的优先事项。我们不断努力改善应用程序的功能和便利性，让你与InstaLikee的互动尽可能愉快和高效。我们重视你的意见，始终欢迎建议和反馈。加入我们的社区，享受InstaLikee提供的独特机会。", "Name": "姓名", "Legal Information and Policy": "法律信息和政策", "Contact Us": "联系我们", "Email": "电子邮件", "Phone": "电话", "Message": "消息", "Send": "发送", "Россия": "俄罗斯", "new customers": "通过InstaLikee广告吸引新客户。发展你的业务，创造有效的创意，并建立长期的客户关系 — 一切尽在一个平台。"}
+      "zh": { "translation": { "INSTA LIKEE": "INSTA LIKEE", "Learn More": "了解更多", "About Us": "关于我们", "contact": "联系我们", "legal": "法律", "legal Information and Policy": "法律信息和政策", "Download the app, use it": "下载应用并使用", "InstaLikee — leading platform": "InstaLikee — 领先的平台，创建和观看短视频，分享照片和消息。", "Mission Statement": "我们的使命是鼓励用户创造和带来欢乐。InstaLikee总部位于俄罗斯。InstaLikee — 让你更接近人们和你所热爱的事物。我们努力创建一个安全的应用和一个支持每个人的社区。", "Discover New Content": "发现新内容。根据你的兴趣，发现内容和用户。与更多的人连接，创建有趣的内容并让它属于你。和我们一起成长。我们把人放在第一位，并在工作中注重工艺和简洁。", "Global Creativity": "我们的团队在全球范围内激发创造力，帮助超过十亿人创造和分享。加入我们！下载InstaLikee的标志和其他资源，用于你的网页、商店或其他营销材料。", "Privacy Policy": "隐私政策：我们尊重你的隐私并致力于保护你的个人数据。你通过我们的服务提供的所有数据都将按照适用的数据保护法律进行处理。我们仅使用你的数据来提供和改善我们的服务。你有权随时请求访问、修正或删除你的数据。", "Terms of Use": "使用条款：使用我们的服务即表示你同意遵守所有适用的法律法规。你同意不将我们的服务用于非法目的或以可能损害我们服务或其他用户的方式使用。我们保留在你违反这些条款时暂停或终止你访问我们服务的权利。", "Copyright": "版权：我们网站上的所有材料，包括文本、图像和徽标，都受版权保护。未经我们事先书面同意，你不得使用、复制或分发这些材料。任何未经授权的使用可能会导致法律后果。", "User Agreement": "用户协议：我们致力于为你提供最好的使用体验。你的安全和满意度是我们的优先事项。我们不断努力改善应用程序的功能和便利性，让你与InstaLikee的互动尽可能愉快和高效。我们重视你的意见，始终欢迎建议和反馈。加入我们的社区，享受InstaLikee提供的独特机会。", "Name": "姓名", "Legal Information and Policy": "法律信息和政策", "Contact Us": "联系我们", "Email": "电子邮件", "Phone": "电话", "Message": "消息", "Send": "发送", "Россия": "俄罗斯","читать всё": "阅读全文", "new customers": "通过InstaLikee广告吸引新客户。发展你的业务，创造有效的创意，并建立长期的客户关系 — 一切尽在一个平台。"}
     },
     },
            

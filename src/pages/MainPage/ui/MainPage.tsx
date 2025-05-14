@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import phone1 from '@/shared/assets/phone1.png';
 import phone2 from '@/shared/assets/phone2.png';
 import phone3 from '@/shared/assets/phone3.png';
+import phone4 from '@/shared/assets/phone4.png';
 import rustore from '@/shared/assets/rustore-apk.png';
 import CircleWithArrow from "@/shared/assets/circleWithArrow";
 import IconGroup from "@/shared/assets/IconGroup";
@@ -199,16 +200,16 @@ function MainPage() {
         {t('Legal Information and Policy')}
       </h2>
       <p className='w-[90vw] max-w-[1800px] mt-8 mb-4 font-golos-text text-[24px] font-normal leading-[22px] tracking-[-0.3px] decoration-skip-ink-none sm:text-[24px] sm:w-[80vw] md:text-[20px] md:leading-[24px] lg:text-[21px] lg:leading-[25px] xl:text-[22px] xl:leading-[26px]'>
-        {t('Privacy Policy')}
+        {t('Privacy Policy')} <a className='text-violet-900' href="privacy">{t('читать всё')}</a>
       </p>
       <p className='w-[90vw] max-w-[1800px] mt-8 mb-4 font-golos-text text-[24px] font-normal leading-[22px] tracking-[-0.3px] decoration-skip-ink-none sm:text-[24px] sm:w-[80vw] md:text-[20px] md:leading-[24px] lg:text-[21px] lg:leading-[25px] xl:text-[22px] xl:leading-[26px]'>
-        {t('Terms of Use')}
+        {t('Terms of Use')} <a className='text-violet-900' href="terms-of-use">{t('читать всё')}</a>
       </p>
       <p className='w-[90vw] max-w-[1800px] mt-8 mb-4 font-golos-text text-[24px] font-normal leading-[22px] tracking-[-0.3px] decoration-skip-ink-none sm:text-[24px] sm:w-[80vw] md:text-[20px] md:leading-[24px] lg:text-[21px] lg:leading-[25px] xl:text-[22px] xl:leading-[26px]'>
-        {t('Copyright')}
+        {t('Copyright')} <a className='text-violet-900' href="copyright">{t('читать всё')}</a>
       </p>
       <p className='w-[90vw] max-w-[1800px] mt-8 mb-4 font-golos-text text-[24px] font-normal leading-[22px] tracking-[-0.3px] decoration-skip-ink-none sm:text-[24px] sm:w-[80vw] md:text-[20px] md:leading-[24px] lg:text-[21px] lg:leading-[25px] xl:text-[22px] xl:leading-[26px]'>
-        {t('User Agreement')}
+        {t('User Agreement')} <a className='text-violet-900' href="agreement">{t('читать всё')}</a> 
       </p>
     </section>
   </Element>
@@ -251,25 +252,25 @@ function MainPage() {
       </div>
       <img src={phone3} className='lg:hidden hidden md md:hidden sm:hidden xl:mt-[-50px] lg:mt-[-20px] sm:m-0 md:m-0 xl:h-[579.95px] xl:w-[75vw] lg:h-[500px] lg:w-[75vw] lg:right-[-78px] md:h-[40vw] md:w-[75vw] sm:right-16 sm:absolute sm:justify-self-center md:right-9 md:absolute md:justify-self-center max-h-[739.95px] max-w-[1688.64px] xl:absolute lg:absolute top-[-70px] left-[35vw] object-contain ml-14 md:mx-auto sm:mx-auto'></img>
     
-        <div className='flex items-center justify-center sm:justify-center flex-wrap md:flex-nowrap md:flex-row mt-6 gap-2 mb:justify-start md:ml-[-15px] ml-0'>
+        <div className='flex items-center justify-left sm:justify-left flex-col sm:flex-row sm:flex-nowrap md:flex-nowrap md:flex-row mt-6 gap-2 mb:justify-start md:ml-[-15px] ml-0'>
           <a href="https://support.google.com/googleplay" target="_blank" rel="noopener noreferrer">
             <img src={'https://www.tulpar-card.kg/wp-content/uploads/2020/06/google.png'}
-              className=' h-[150px] w-[310px] object-contain mt-[-26px] ml-[-14px] translate-y-[43px]' alt="Google Play"></img>
+              className=' h-[150px] w-[310px] object-contain mt-[-70px] ml-[-14px]   sm:translate-x-[-73px] translate-y-[43px]' alt="Google Play"></img>
           </a>
           <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer">
             <img src={'https://www.freestylelibre.com.au/media/wysiwyg/2022_Icon_Apple_Store.png'}
-              className=' h-[73px] w-[193px] object-contain mt-[12px] ml-[-10px]' alt="App Store"></img>
+              className=' h-[73px] w-[193px] object-contain mt-[12px] translate-x-[-8px] sm:ml-[15px] sm:translate-x-[-133px] ' alt="App Store"></img>
           </a>
           <a href="https://www.rustore.ru/" target="_blank" rel="noopener noreferrer">
             <img src={rustore}
-              className=' h-[55px] w-[193px] object-contain mt-5 ml-[-10px]' alt="RuStore"></img>
+              className=' h-[56px] w-[193px] object-contain mt-3 ml-[-10px]   sm:translate-x-[-103px]   ' alt="RuStore"></img>
           </a>
         </div>
-      <img src={'https://s3-alpha-sig.figma.com/img/f689/8dc2/988df1d65895d2e93e37e484abcd50e2?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Oa93HYf3DI6YzxuIeYDOmNfOsgrUb9ndKAnIsaHqH94~XG5W58K6W4lAvivqgy7zaYo6DAuvdq-rbjJRCpni4jNOMpxy~gSdrqFXumys49wQckKlzR3UnPQt5-euOm9Le6kvGlwybQyIVwk26U-nhA2YXxHbsa1O8UWAu3M7RCYQuv8i5R~fUclVVK~s0eExpNZ~-l5H~KwY7oo4-ZClTTrkgNaEYiNSyvFBEXstIUEU7ENf7bqXV~fYDqlNW1beASGWVoZa21p~kYaXCuF6PvBDcf6-bTHqIdH1EG8Utz7wALGK1lVFNqHhUn6Xodar8MqfLFX4KDcaITL9UdWW0w__'}
+      <img src={phone4}
         className='xl:hidden sm:hidden ml-[-15px] 2xl:hidden lg:mt-[-20px] sm:m-0 md:m-0 xl:h-[579.95px] xl:w-[75vw] lg:h-[500px] lg:w-[75vw] lg:right-[-300px] md:right-[-300px] md:h-[450px] md:w-[75vw] sm:right-[-300px] sm:h-[450px] sm:w-[75vw] sm:absolute justify-self-center sm:justify-self-center md:absolute md:justify-self-center max-h-[739.95px] max-w-[1688.64px] xl:absolute lg:absolute top-[-70px] left-[35vw] object-contain md:mx-auto sm:mx-auto'></img>
     </div>
-    <img src={'https://s3-alpha-sig.figma.com/img/f689/8dc2/988df1d65895d2e93e37e484abcd50e2?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Oa93HYf3DI6YzxuIeYDOmNfOsgrUb9ndKAnIsaHqH94~XG5W58K6W4lAvivqgy7zaYo6DAuvdq-rbjJRCpni4jNOMpxy~gSdrqFXumys49wQckKlzR3UnPQt5-euOm9Le6kvGlwybQyIVwk26U-nhA2YXxHbsa1O8UWAu3M7RCYQuv8i5R~fUclVVK~s0eExpNZ~-l5H~KwY7oo4-ZClTTrkgNaEYiNSyvFBEXstIUEU7ENf7bqXV~fYDqlNW1beASGWVoZa21p~kYaXCuF6PvBDcf6-bTHqIdH1EG8Utz7wALGK1lVFNqHhUn6Xodar8MqfLFX4KDcaITL9UdWW0w__'}
-        className='xl:hidden hidden  sm:block 2xl:hidden lg:mt-[-20px] sm:m-0 md:m-0 xl:h-[579.95px] xl:w-[75vw] lg:h-[500px] lg:w-[75vw] lg:right-[-300px] md:right-[-300px] md:h-[450px] md:w-[75vw] sm:right-[-300px] sm:h-[950px] sm:w-[750px] sm:ml-[-25px] justify-self-center sm:justify-self-center md:absolute md:justify-self-center max-h-[1050.95px] max-w-[1688.64px] xl:absolute lg:absolute top-[-70px] left-[35vw] object-contain md:mx-auto sm:mx-auto'></img>
+    <img src={phone4}
+        className='xl:hidden hidden sm:translate-y-[193px]  sm:block 2xl:hidden lg:mt-[-20px] sm:m-0 md:m-0 xl:h-[579.95px] xl:w-[75vw] lg:h-[500px] lg:w-[75vw] lg:right-[-300px] md:right-[-300px] md:h-[450px] md:w-[75vw] sm:right-[-300px] sm:h-[950px] sm:w-[750px] sm:ml-[-25px] justify-self-center sm:justify-self-center md:absolute md:justify-self-center max-h-[1050.95px] max-w-[1688.64px] xl:absolute lg:absolute top-[-70px] left-[35vw] object-contain md:mx-auto sm:mx-auto'></img>
     
   </section>
 </div>
