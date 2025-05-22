@@ -13,7 +13,7 @@ export const Footer = memo(() => {
       <div className="flex items-center">
         <Icon className="ml-5 xl:w-64 lg:w-48 lg:ml-4 mr-auto" />
       </div>
-      <div className=' mx-auto font-semibold text-[18px]'>2025 &copy; </div>
+      <div className=' mx-auto font-semibold text-[18px]'><a href="https://instalikee.com/privacy"> 2025 &copy;</a> </div>
       <ul className="hidden lg:flex justify-around w-full">
         <div className="flex space-x-8 mx-auto">
           <li className="self-center font-bold leading-tight tracking-tight mb-2 text-xs sm:text-sm md:text-l 2xl:text-xl xl:text-lg whitespace-nowrap">

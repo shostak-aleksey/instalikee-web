@@ -23,12 +23,12 @@ export const TermsOfUsePage = () => (
       </p>
       <p className="mb-4">
         1.4. Действующая редакция Правил, являющихся публичным документом, доступна любому пользователю сети Интернет при переходе по ссылке&nbsp;
-        <a href="https://instalikee.com/docs/politics" className="text-violet-600 underline break-all" target="_blank" rel="noopener noreferrer">https://instalikee.com/docs/politics</a>. Администрация Приложений вправе вносить изменения в настоящие Правила. При внесении изменений в Правила Администрация Приложений уведомляет об этом пользователей путем размещения новой редакции Правил в Приложении по постоянному адресу&nbsp;
-        <a href="https://instalikee.com/docs/politics" className="text-violet-600 underline break-all" target="_blank" rel="noopener noreferrer">https://instalikee.com/docs/politics</a>
+        <a href="https://instalikee.com/privacy" className="text-violet-600 underline break-all" target="_blank" rel="noopener noreferrer">https://instalikee.com/privacy</a>. Администрация Приложений вправе вносить изменения в настоящие Правила. При внесении изменений в Правила Администрация Приложений уведомляет об этом пользователей путем размещения новой редакции Правил в Приложении по постоянному адресу&nbsp;
+        <a href="https://instalikee.com/privacy" className="text-violet-600 underline break-all" target="_blank" rel="noopener noreferrer">https://instalikee.com/privacy</a>
       </p>
       <p className="mb-4">
         1.5. Настоящие Правила разработаны и используются в соответствии с Условиями пользования Приложением, размещенными по адресу&nbsp;
-        <a href="https://instalikee.com/docs/terms" className="text-violet-600 underline break-all" target="_blank" rel="noopener noreferrer">https://instalikee.com/docs/terms</a>. В случае наличия противоречий между настоящими Правилами и иными официальными документами Администрации Приложений применению подлежат настоящие Правила.
+        <a href="https://instalikee.com/terms-of-use" className="text-violet-600 underline break-all" target="_blank" rel="noopener noreferrer">https://instalikee.com/terms-of-use</a>. В случае наличия противоречий между настоящими Правилами и иными официальными документами Администрации Приложений применению подлежат настоящие Правила.
       </p>
       <p className="mb-4">
         1.6. Регистрируясь и используя Приложение, Пользователь выражает свое согласие с условиями настоящих Правил.
@@ -104,7 +104,7 @@ export const TermsOfUsePage = () => (
       <h3 className="text-lg font-semibold text-violet-600 mb-2">5.1.1. Условия и цели обработки персональных данных</h3>
       <p className="mb-4">
         Администрация Приложений осуществляет обработку персональных данных пользователя в целях исполнения договора между Администрацией Приложений и Пользователем на оказание Услуг Приложений (п. 2.2 Правил пользования Приложением InstaLikee&nbsp;
-        <a href="https://instalikee.com/docs/terms" className="text-violet-600 underline break-all" target="_blank" rel="noopener noreferrer">https://instalikee.com/docs/terms</a>
+        <a href="https://instalikee.com/terms-of-use" className="text-violet-600 underline break-all" target="_blank" rel="noopener noreferrer">https://instalikee.com/terms-of-use</a>
         ). В силу статьи 6 Федерального закона от 27.07.2006 № 152-ФЗ «О персональных данных» отдельное согласие пользователя на обработку его персональных данных не требуется. В силу п.п. 2 п. 2 статьи 22 указанного закона Администрация Приложения вправе осуществлять обработку персональных данных без уведомления уполномоченного органа по защите прав субъектов персональных данных.
       </p>
       <h3 className="text-lg font-semibold text-violet-600 mb-2">5.1.2. Сбор персональных данных</h3>
@@ -134,7 +134,7 @@ export const TermsOfUsePage = () => (
       <h3 className="text-lg font-semibold text-violet-600 mb-2">5.1.8. Передача персональных данных</h3>
       <p className="mb-4">
         Персональные данные Пользователей не передаются никаким другим третьим лицам, за исключением случаев, прямо предусмотренных настоящими Правилами. При указании Пользователя или при наличии согласия Пользователя возможна передача персональных данных Пользователя третьим лицам - контрагентам Администрации Приложения с условием принятия такими контрагентами обязательств по обеспечению конфиденциальности полученной информации. Предоставление персональных данных Пользователей по запросу государственных органов (органов местного самоуправления) осуществляется в порядке, предусмотренном законодательством. В целях исполнения соглашения между Пользователем и Администрацией Приложения и предоставления Пользователю доступа к использованию функциональности Приложения Администрация Приложения развивает предоставляемые сервисы и продукты, разрабатывает и внедряет новые сервисы и продукты, оптимизирует качество сервисов и продуктов, совершенствует доступную функциональность Приложения и сервисов. Для обеспечения реализации указанных целей Пользователь соглашается на осуществление Администрацией Приложения с соблюдением применимого законодательства сервисных рассылок в его адрес (в том числе опросов) с целью получения обратной связи посредством сервисов Администрации Приложения и/ или сервисов третьих лиц: электронных сообщений и иных видов рассылок, - а также сбора, хранения, накопления, систематизации, извлечения, сопоставления, использования, наполнения (уточнения) их данных, а также на получение и передачу аффилированным лицам и партнёрам результатов автоматизированной обработки таких данных с применением различных моделей оценки информации в виде целочисленных и/или текстовых значений и идентификаторов, соответствующих заданным в запросах оценочным критериям, для обработки данных Администрацией Приложений и/или лицами, указанными в настоящем пункте. Регистрация и/или авторизация в Приложении означает согласие с Пользовательским соглашением, которое размещено в открытом доступе в сети Интернет по адресу&nbsp;
-        <a href="https://InstaLikee.ru/docs/terms" className="text-violet-600 underline break-all" target="_blank" rel="noopener noreferrer">https://InstaLikee.ru/docs/terms</a>
+        <a href="https://InstaLikee.ru/terms-of-use" className="text-violet-600 underline break-all" target="_blank" rel="noopener noreferrer">https://InstaLikee.ru/terms-of-use</a>
         &nbsp;и Политикой конфиденциальности, которая размещена в открытом доступе в сети Интернет по адресу&nbsp;
         <a href="https://InstaLikee.ru/docs/politics" className="text-violet-600 underline break-all" target="_blank" rel="noopener noreferrer">https://InstaLikee.ru/docs/politics</a>
       </p>
@@ -148,7 +148,7 @@ export const TermsOfUsePage = () => (
       <ul className="list-disc pl-8 mb-4 space-y-2">
         <li>• самостоятельном удалении Пользователем своего профиля;</li>
         <li>• удалении Администрацией Приложения информации, размещаемой Пользователем, а также персональной страницы Пользователя в случаях, установленных Правилами пользования приложением&nbsp;
-          <a href="https://instalikee.com/docs/terms" className="text-violet-600 underline break-all" target="_blank" rel="noopener noreferrer">https://instalikee.com/docs/terms</a>
+          <a href="https://instalikee.com/terms-of-use" className="text-violet-600 underline break-all" target="_blank" rel="noopener noreferrer">https://instalikee.com/terms-of-use</a>
         </li>
       </ul>
       <p className="mb-4">

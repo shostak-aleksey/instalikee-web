@@ -145,7 +145,7 @@ function MainPage() {
           type='text'
           name="name"
           placeholder={t('Name')}
-          className='mb-4 p-2 border border-gray-300 rounded'
+          className='mb-4 p-2 border border-gray-300 border-solid rounded'
           disabled={isSubmitting}
           required
         />
@@ -153,7 +153,7 @@ function MainPage() {
           type='email'
           name="email"
           placeholder={t('Email')}
-          className='mb-4 p-2 border border-gray-300 rounded'
+          className='mb-4 p-2 border border-gray-300 border-solid rounded'
           disabled={isSubmitting}
           required
         />
@@ -161,14 +161,14 @@ function MainPage() {
           type='tel'
           name="phone"
           placeholder={t('Phone')}
-          className='mb-4 p-2 border border-gray-300 rounded'
+          className='mb-4 p-2 border border-gray-300 border-solid rounded'
           disabled={isSubmitting}
           required
         />
         <textarea
           name="message"
           placeholder={t('Message')}
-          className='mb-4 p-2 border border-gray-300 rounded h-32'
+          className='mb-4 p-2 border border-gray-300 border-solid rounded h-32'
           disabled={isSubmitting}
           required
         ></textarea>
@@ -206,7 +206,9 @@ function MainPage() {
         {t('Terms of Use')} <a className='text-violet-900' href="terms-of-use">{t('читать всё')}</a>
       </p>
       <p className='w-[90vw] max-w-[1800px] mt-8 mb-4 font-golos-text text-[24px] font-normal leading-[22px] tracking-[-0.3px] decoration-skip-ink-none sm:text-[24px] sm:w-[80vw] md:text-[20px] md:leading-[24px] lg:text-[21px] lg:leading-[25px] xl:text-[22px] xl:leading-[26px]'>
-        {t('Copyright')} <a className='text-violet-900' href="copyright">{t('читать всё')}</a>
+        {t('Copyright')} <a className='text-violet-900' href="copyright">
+          {/* {t('читать всё')} */}
+          </a>
       </p>
       <p className='w-[90vw] max-w-[1800px] mt-8 mb-4 font-golos-text text-[24px] font-normal leading-[22px] tracking-[-0.3px] decoration-skip-ink-none sm:text-[24px] sm:w-[80vw] md:text-[20px] md:leading-[24px] lg:text-[21px] lg:leading-[25px] xl:text-[22px] xl:leading-[26px]'>
         {t('User Agreement')} <a className='text-violet-900' href="agreement">{t('читать всё')}</a> 
@@ -252,7 +254,7 @@ function MainPage() {
       </div>
       <img src={phone3} className='lg:hidden hidden md md:hidden sm:hidden xl:mt-[-50px] lg:mt-[-20px] sm:m-0 md:m-0 xl:h-[579.95px] xl:w-[75vw] lg:h-[500px] lg:w-[75vw] lg:right-[-78px] md:h-[40vw] md:w-[75vw] sm:right-16 sm:absolute sm:justify-self-center md:right-9 md:absolute md:justify-self-center max-h-[739.95px] max-w-[1688.64px] xl:absolute lg:absolute top-[-70px] left-[35vw] object-contain ml-14 md:mx-auto sm:mx-auto'></img>
     
-        <div className='flex items-center justify-left sm:justify-left flex-col sm:flex-row sm:flex-nowrap md:flex-nowrap md:flex-row mt-6 gap-2 mb:justify-start md:ml-[-15px] ml-0'>
+        <div className='flex items-center justify-start sm:justify-start flex-col sm:flex-row sm:flex-nowrap md:flex-nowrap md:flex-row mt-6 gap-2 mb:justify-start md:ml-[-15px] ml-0'>
           <a href="https://support.google.com/googleplay" target="_blank" rel="noopener noreferrer">
             <img src={'https://www.tulpar-card.kg/wp-content/uploads/2020/06/google.png'}
               className=' h-[150px] w-[310px] object-contain mt-[-70px] ml-[-14px]   sm:translate-x-[-73px] translate-y-[43px]' alt="Google Play"></img>
